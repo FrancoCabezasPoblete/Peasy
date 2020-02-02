@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <!--El conjunto de caracteres usado, Ej: UTF-8 tiene caracteres universales-->
+    <title>Peasy - Set-ups</title> <!-- Cambia el titulo del sitio! -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <!--Bootstrap CSS-->
+    <link rel="stylesheet" href="Bootstrap_4.11/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/busqueda.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- header vaporwave -->
+    <div class="container">
+        <div class="row">
+            <img src="img/header.png" alt="vaporwave" id="header" class="center col">
+        </div>
+        <ul class="borde-pag-completa">
+            <!-- navbar -->
+            <div class="row">
+                <div class="col">
+                    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #0c004b;">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="position-relative" id="pos_logo">
+                            <img src="img/logo.png" class="mx-auto img-fluid" id="logo">
+                        </div>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="navbar-nav mr-auto">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="index.html" onmouseover="hoverCasa(this);" onmouseout="unhoverCasa(this);" id="contactanos"><img src="img/house%201.png" width="10px" height="auto" id="casita" class="icono">H O M E</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#" onmouseover="hoverContacto(this);" onmouseout="unhoverContacto(this);" id="contactanos"><img src="img/mail%201.png" width="10px" height="auto" id="mailsito" class="icono">C O N T A C T A N O S</a>
+                                </li>
+                            </div>
+                            <form class="form-inline" id="lupa">
+                                <input class="form-control mr-sm-2" type="search" placeholder="ᴇꜱᴄʀɪʙᴇ ᴛᴜ ʙᴜᴅɢᴇᴛ ᴀᴄᴀ!" aria-label="search" id="boton-buscar">
+                                <div><button class="btn" onmouseover="hoverLupa(this);" onmouseout="unhoverLupa(this);" type="submit"><img src="img/lupa%201.png" id="lupita" class="icono_lupa"></button></div>
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </ul>
+        <!-- card -->
+        <div class="row">
+            <div class="cajita col" style="margin-left:2%; margin-right:2%; margin-bottom:1%;">
+                <img src="img/ejemplo1.png" alt="setup" style="width:100%; object-fit:cover">
+                <h1>𝘽𝙐𝙀𝙉 𝙍𝘼𝙈</h1>
+                <h5>$2.000.000<h5>
+                <p>
+                    <ol class="descripcion">
+                        <li>Memoria Notebook 4GB (1x 4GB) SoDimm DDR3 1600Mhz PC3-12800</li>
+                        <li>Gear® Desktop Intel Core i5-9400F 4GB 1TB DVDRW Windows 10 Home </li>
+                        <li>AMD CPU AMD Athlon 3000G aedfssf sdfs afa sfsdff h</li>
+                    </ol>
+                    <button type="button" class="btn" id="popover" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="<ol><li>otra wea</li><li>otra wea 2</li><li>otra wea 3</li></ol>">ｌｅｅｒ　ｍａｓ</button>
+                    <button class="VerSetup">ᴠᴇʀ ꜱᴇᴛ-ᴜᴘ ᴄᴏᴍᴘʟᴇᴛᴏ</button>
+                </p>
+            </div>
+            <div class="cajita col" style="margin-left:2%; margin-right:2%; margin-bottom:1%;">
+                <img src="img/ejemplo2.png" alt="setup" style="width:100%; object-fit:cover">
+                <h1>𝙏𝘼𝙍𝙍𝙊 𝙒𝘼𝙋𝙊</h1>
+                <h5>$1.000.000<h5>
+                <p>
+                    <ol class="descripcion">
+                        <li>Memoria Notebook 4GB (1x 4GB) SoDimm DDR3 1600Mhz PC3-12800</li>
+                        <li>Gear® Desktop Intel Core i5-9400F 4GB 1TB DVDRW Windows 10 Home </li>
+                        <li>AMD CPU AMD Athlon 3000G aedfssf sdfs afa sfsdff h</li>
+                    </ol>
+                    <button type="button" class="btn" id="popover" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="<ol><li>otra wea</li><li>otra wea 2</li><li>otra wea 3</li></ol>">ｌｅｅｒ　ｍａｓ</button>
+                    <button class="VerSetup">ᴠᴇʀ ꜱᴇᴛ-ᴜᴘ ᴄᴏᴍᴘʟᴇᴛᴏ</button>
+                </p>
+            </div>
+            <div class="cajita col" style="margin-left:2%; margin-right:2%; margin-bottom:1%;">
+                <img src="img/ejemplo3.png" alt="setup" style="width:100%; object-fit:cover">
+                <h1>una wea corta</h1>
+                <h5>$5.000.000<h5>
+                <p>
+                    <ol class="descripcion">
+                        <li>Memoria Notebook 4GB (1x 4GB) SoDimm DDR3 1600Mhz PC3-12800</li>
+                        <li>Gear® Desktop Intel Core i5-9400F 4GB 1TB DVDRW Windows 10 Home </li>
+                        <li>AMD CPU AMD Athlon 3000G aedfssf sdfs afa sfsdff h</li>
+                    </ol>
+                    <button type="button" class="btn" id="popover" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="<ol><li>otra wea</li><li>otra wea 2</li><li>otra wea 3</li></ol>">ｌｅｅｒ　ｍａｓ</button>
+                    <button class="VerSetup">ᴠᴇʀ ꜱᴇᴛ-ᴜᴘ ᴄᴏᴍᴘʟᴇᴛᴏ</button>
+                </p>
+            </div>
+            <div class="cajita col" style="margin-left:2%; margin-right:2%; margin-bottom:1%;">
+                <img src="img/ejemplo4.png" alt="setup" style="width:100%; object-fit:cover">
+                <h1>Que paja dxd</h1>
+                <h5>$800.000<h5>
+                <p>
+                    <ol class="descripcion">
+                        <li>Memoria Notebook 4GB (1x 4GB) SoDimm DDR3 1600Mhz PC3-12800</li>
+                        <li>Gear® Desktop Intel Core i5-9400F 4GB 1TB DVDRW Windows 10 Home </li>
+                        <li>AMD CPU AMD Athlon 3000G aedfssf sdfs afa sfsdff h</li>
+                    </ol>
+                    <button type="button" class="btn" id="popover" data-container="body" data-toggle="popover" data-placement="bottom" data-html="true" data-content="<ol><li>otra wea</li><li>otra wea 2</li><li>otra wea 3</li></ol>">ｌｅｅｒ　ｍａｓ</button>
+                    <button class="VerSetup">ᴠᴇʀ ꜱᴇᴛ-ᴜᴘ ᴄᴏᴍᴘʟᴇᴛᴏ</button>
+                </p>
+            </div>
+        </div>
+        <!-- pagination -->
+        <div class="row">
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#" class="active">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">5</a>
+                <a href="#">6</a>
+                <a href="#">&raquo;</a>
+            </div>
+        </div>
+    </div>
+    <!--Bootstrap JS-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
+        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
+    </script>
+    <script src="Bootstrap_4.11/js/bootstrap.min.js"></script>
+    <script src="script/busqueda.js"></script>
+</body>
+</html>

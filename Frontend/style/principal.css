@@ -1,0 +1,78 @@
+body{
+    background-image: url("../img/fondo.gif");
+    background-repeat: repeat;
+}
+
+#header {
+    position: relative;
+}
+
+@media (min-width: 990px) {
+    .navbar {
+        height:40px;
+    }
+}
+.nav-item {
+    display: block;
+
+}
+
+#contactanos {
+    padding-right: 30px;
+    color:#d500e5;
+    font-size: small;
+}
+
+#contactanos:hover {
+    color: #68d5df;
+    transition-delay:0.001s;
+}
+
+
+#casa{
+    padding-right: 30px;
+    color:#68d5df;
+    font-size: small;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#pos_logo {
+    z-index: 1;
+    left: -1%;
+    padding: 0; 
+    height: auto;
+    width: 180px;
+}
+
+
+#boton-buscar {
+    height: 25px;
+}
+.icono_lupa {
+    position: relative;
+    width: 15px;
+    height: auto;
+    left:-10px;
+}
+.icono {
+    position: relative;
+    left: -5px;
+    bottom: 2px;
+}
+
+.navbar-toggler-icon {
+    color: white;
+}
+
+.borde-pag-completa {
+    border-left: 2px solid #d500e5;
+    border-right: 2px solid #d500e5;
+    border-bottom: 2px solid #d500e5;
+    padding: 0;
+}

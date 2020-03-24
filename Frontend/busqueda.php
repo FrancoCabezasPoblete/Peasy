@@ -1,3 +1,23 @@
+<?php
+include_once 'conexion.php';
+$budget = $_GET['budget'];
+if($budget < 156906){
+    $budget = 156906;
+}
+include('consultaBudget.php'); //$cpu,$gab,$gpu,$placa,$psu,$ram,$hdd,$ssd
+include('creacionSetups.php'); //$resultados[num] = ['cpu','gab','gpu','placa','psu','ram','almacenamiento','precioTotal']
+function cmp($a, $b) {
+    return $a['precioTotal'] < $b['precioTotal'];
+}
+  
+uasort($resultados, "cmp");
+$cantidadelementos = count($resultados);
+$cantidadPag = ceil($cantidadelementos/12);
+$inicio = ($_GET['pagina']-1)*12;
+$resultadosPag = array_slice($resultados,$inicio,12);
+
+
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -5,152 +25,161 @@
     <!--El conjunto de caracteres usado, Ej: UTF-8 tiene caracteres universales-->
     <title>Peasy - Set-ups</title> <!-- Cambia el titulo del sitio! -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <!--Bootstrap CSS-->
+<!-- bootstrap CSS -->
     <link rel="stylesheet" href="Bootstrap_4.11/css/bootstrap.min.css">
     <link rel="stylesheet" href="style/busqueda.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" href="img/favicon.ico" type="image/ico">
 </head>
 <body>
-    <!-- header vaporwave -->
-    <div class="container">
+
+<!-- header -->
+<div class="container">
         <div class="row">
             <img src="img/header.png" alt="vaporwave" id="header" class="center col">
         </div>
-        <ul class="borde-pag-completa">
-    <!-- navbar -->
-            <div class="row">
-                <div class="col">
-                    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #48146d;">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="position-relative" id="pos_logo">
-                            <img src="img/logo.png" class="mx-auto img-fluid" id="logo">
-                        </div>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <div class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="index.html" onmouseover="hoverCasa(this);" onmouseout="unhoverCasa(this);" id="contactanos"><img src="img/house%201.png" width="10px" height="auto" id="casita" class="icono">H O M E</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#" onmouseover="hoverContacto(this);" onmouseout="unhoverContacto(this);" id="contactanos"><img src="img/mail%201.png" width="10px" height="auto" id="mailsito" class="icono">C O N T A C T A N O S</a>
-                                </li>
+    <div class="borde-rosado p-0 m-0 mb-5">
+
+<!-- navbar -->
+    <div class="row">
+        <div class="col">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="position-relative" id="logo">
+                    <img src="img/logo.png" class="mx-auto img-fluid">
+                </div>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="navbar-nav mr-auto">
+                        <li class="nav-item mt-1">
+                            <a class="nav-link" href="index.html" onmouseover="hoverCasa(this);" onmouseout="unhoverCasa(this);" id="menu-texto"><img src="img/house%201.png" id="icono-casa" class="iconos m-2">H O M E</a>
+                        </li>
+                        <li class="nav-item mt-1">
+                            <a class="nav-link" href="#" onmouseover="hoverContacto(this);" onmouseout="unhoverContacto(this);" id="menu-texto"><img src="img/mail%201.png" id="icono-contacto" class="iconos m-2">C O N T A C T A N O S</a>
+                        </li>
+                    </div>
+                    <form class="form-inline" action="busqueda.php" method="GET">
+                        <input class="form-control mr-sm-2 rounded-0" type="text" placeholder="ᴇꜱᴄʀɪʙᴇ ᴛᴜ ʙᴜᴅɢᴇᴛ ᴀᴄᴀ!" aria-label="search" id="boton-buscar" name="budget" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))">
+                        <input class="form-control" type="hidden" name="pagina" value="1">    
+                        <div>
+                                <button class="btn" onmouseover="hoverLupa(this);" onmouseout="unhoverLupa(this);" type="submit"><img src="img/lupa%201.png" id="icono-lupa" class="icono-lupa"></button>
                             </div>
-                            <form class="form-inline" id="lupa">
-                                <input class="form-control mr-sm-2" type="search" placeholder="ᴇꜱᴄʀɪʙᴇ ᴛᴜ ʙᴜᴅɢᴇᴛ ᴀᴄᴀ!" aria-label="search" id="boton-buscar">
-                                <div><button class="btn" onmouseover="hoverLupa(this);" onmouseout="unhoverLupa(this);" type="submit"><img src="img/lupa%201.png" id="lupita" class="icono_lupa"></button></div>
-                            </form>
-                        </div>
-                    </nav>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </div>
+
+<!-- card -->
+    <div class="bg-white container">
+        <div class="row">
+        <?php 
+        $mejorcpu = 0;
+        foreach($resultadosPag as $setup): ?>
+        <?php if(base64_encode(serialize($setup)) != "Tjs="): ?>
+            <?php if($mejorcpu <= $setup['cpu']['benchmark'] and $setup['cpu']['benchmark']>= 50){
+            $mejorcpu = $setup['cpu']['benchmark']; ?>
+            <div class="col-3 d-flex justify-content-center">
+                <div class="card rounded-0 mt-2">
+                    <img src="<?php echo $setup['gab']['imagen'] ?>" class="card-img-top" alt="...">
+                    <div class="flex-column">
+                        <img src="<?php echo $setup['gpu']['imagen'] ?>" class="imagen-carta card-img-left col" alt="...">
+                        <img src="<?php echo $setup['cpu']['imagen'] ?>" class="imagen-carta card-img-right col" alt="...">
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">$<?php echo number_format($setup['precioTotal'], 0, ',', '.') ?></h5>
+                        <p>Tiene un procesador potente que servira para variadas tareas</p>
+                    </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item overflow"><?php echo $setup['gab']['nombre'] ?></li>
+                            <li class="list-group-item overflow"><?php echo $setup['gpu']['nombre'] ?></li>
+                            <li class="list-group-item overflow"><?php echo $setup['cpu']['nombre'] ?></li>
+                        </ul>
+                    <div class="card-body">
+                        <a href="set-up.php?setup=<?php print base64_encode(serialize($setup)) ?>" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</a>
+                    </div>
                 </div>
             </div>
-    <!-- card -->
-        <div class="fondo-cuadrado row">
-                <div class="card mx-auto rounded-0 mt-2" style="width: 16rem;">
-                    <img src="img/ejemplo1.png" class="card-img-top" alt="...">
+            <?php } elseif($mejorcpu <= $setup['cpu']['benchmark']){
+            $mejorcpu = $setup['cpu']['benchmark']; ?>
+            <div class="col-3 d-flex justify-content-center">
+                <div class="card rounded-0 mt-2">
+                    <img src="<?php echo $setup['gab']['imagen'] ?>" class="card-img-top" alt="...">
                     <div class="flex-column">
-                        <img src="img/ejemplo2.png" class="card-img-left col" alt="..." style="width: 49%;">
-                        <img src="img/ejemplo3.png" class="card-img-right col" alt="..." style="width: 49%;">
+                        <img src="<?php echo $setup['gpu']['imagen'] ?>" class="imagen-carta card-img-left col" alt="...">
+                        <img src="<?php echo $setup['cpu']['imagen'] ?>" class="imagen-carta card-img-right col" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">$2.240.000</h5>
-                      <p class="card-text">Óptimo para gaming</p>
+                        <h5 class="card-title">$<?php echo number_format($setup['precioTotal'], 0, ',', '.') ?></h5>
+                        <p>Mejor procesador, dentro del presupuesto, para versatilizar su uso</p>
                     </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Gamemax Expedition - Blue</li>
-                      <li class="list-group-item">Gigabyte AORUS GeForce RTX 2080...</li>
-                      <li class="list-group-item">Intel Core i9-9900KS</li>
-                    </ul>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item overflow"><?php echo $setup['gab']['nombre'] ?></li>
+                            <li class="list-group-item overflow"><?php echo $setup['gpu']['nombre'] ?></li>
+                            <li class="list-group-item overflow"><?php echo $setup['cpu']['nombre'] ?></li>
+                        </ul>
                     <div class="card-body">
-                        <a href="#" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</a>
+                        <a href="set-up.php?setup=<?php print base64_encode(serialize($setup)) ?>" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</a>
                     </div>
                 </div>
-                <div class="card mx-auto rounded-0 mt-2" style="width: 16rem;">
-                    <img src="img/ejemplo4.png" class="card-img-top" alt="...">
+            </div>
+            <?php } else { ?>
+                <div class="col-3 d-flex justify-content-center">
+                <div class="card rounded-0 mt-2">
+                    <img src="<?php echo $setup['gab']['imagen'] ?>" class="card-img-top" alt="...">
                     <div class="flex-column">
-                        <img src="img/ejemplo5.png" class="card-img-left col" alt="..." style="width: 49%;">
-                        <img src="img/ejemplo6.png" class="card-img-right col" alt="..." style="width: 49%;">
+                        <img src="<?php echo $setup['gpu']['imagen'] ?>" class="imagen-carta card-img-left col" alt="...">
+                        <img src="<?php echo $setup['cpu']['imagen'] ?>" class="imagen-carta card-img-right col" alt="...">
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title">$3.125.000</h5>
-                      <p class="card-text">Óptimo para gaming</p>
+                        <h5 class="card-title">$<?php echo number_format($setup['precioTotal'], 0, ',', '.') ?></h5>
+                        <br/>
+                        <br/>
+                        <br/>
                     </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">DeepCool GamerStorm Quadstellar</li>
-                      <li class="list-group-item">Galax RTX 2080Ti HOF</li>
-                      <li class="list-group-item">Intel Core i9-9960X</li>
-                    </ul>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item overflow"><?php echo $setup['gab']['nombre'] ?></li>
+                            <li class="list-group-item overflow"><?php echo $setup['gpu']['nombre'] ?></li>
+                            <li class="list-group-item overflow"><?php echo $setup['cpu']['nombre'] ?></li>
+                        </ul>
                     <div class="card-body">
-                        <a href="#" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</a>
-                    </div>
-                </div> 
-                <div class="card mx-auto rounded-0 mt-2" style="width: 16rem;">
-                    <img src="img/ejemplo7.png" class="card-img-top" alt="...">
-                    <div class="flex-column">
-                        <img src="img/ejemplo8.png" class="card-img-left col" alt="..." style="width: 49%;">
-                        <img src="img/ejemplo9.png" class="card-img-right col" alt="..." style="width: 49%;">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">$1.891.000</h5>
-                      <p class="card-text">Óptimo para gaming</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">NZXT Manta - Black Windowless</li>
-                      <li class="list-group-item">ASUS ROG-STRIX-RXVEGA64-O8G...</li>
-                      <li class="list-group-item">AMD Ryzen 7 3700X</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</a>
+                        <a href="set-up.php?setup=<?php print base64_encode(serialize($setup)) ?>" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</a>
                     </div>
                 </div>
-                <div class="card mx-auto rounded-0 mt-2" style="width: 16rem;">
-                    <img src="img/ejemplo10.png" class="card-img-top" alt="...">
-                    <div class="flex-column">
-                        <img src="img/ejemplo11.png" class="card-img-left col" alt="..." style="width: 49%;">
-                        <img src="img/ejemplo12.png" class="card-img-right col" alt="..." style="width: 49%;">
-                    </div>
-                    <div class="card-body">
-                      <h5 class="card-title">$2.957.000</h5>
-                      <p class="card-text">Óptimo para gaming</p>
-                    </div>
-                    <ul class="list-group list-group-flush">
-                      <li class="list-group-item">Fractal Design Define S2 Vision RGB</li>
-                      <li class="list-group-item">AMD Radeon PRO WX 7100</li>
-                      <li class="list-group-item">Intel Core i7-9700</li>
-                    </ul>
-                    <div class="card-body">
-                        <a href="#" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</a>
-                    </div>
-                </div>
+            </div>
+            <?php } ?>
+        <?php endif ?>
+        <?php endforeach ?>               
+        </div>
 
-    <!-- pagination -->
+<!-- pagination -->
+    <div class="row">
         <nav aria-label="Page navigation example" class="col">
             <ul class="pagination justify-content-center mt-2 mb-2">
-              <li class="page-item">
-                <a class="page-link rounded-0" href="#" aria-label="Previous">
+              <li class="page-item <?php echo $_GET['pagina']<=1 ? 'd-none' : '' ?>">
+                <a class="page-link rounded-0" href="busqueda.php?budget=<?php echo $budget ?>&pagina=<?php echo $_GET['pagina']-1 ?>" aria-label="Previous">
                   <span aria-hidden="true">&laquo;</span>
                   <span class="sr-only">Previous</span>
                 </a>
               </li>
-              <li class="page-item"><a class="page-link" href="#">1</a></li>
-              <li class="page-item"><a class="page-link" href="#">2</a></li>
-              <li class="page-item"><a class="page-link" href="#">3</a></li>
-              <li class="page-item">
-                <a class="page-link rounded-0" href="#" aria-label="Next">
+              <?php for($i=1; $i < $cantidadPag+1; $i++): ?>
+                  <li class="page-item <?php echo $_GET['pagina']==$i ? 'active' : '' ?>"><a class="page-link" href="busqueda.php?budget=<?php echo $budget ?>&pagina=<?php echo $i ?>"><?php echo $i ?></a></li>
+              <?php endfor ?>
+              <li class="page-item <?php echo $_GET['pagina']>=$cantidadPag ? 'd-none' : '' ?>">
+                <a class="page-link rounded-0" href="busqueda.php?budget=<?php echo $budget ?>&pagina=<?php echo $_GET['pagina']+1 ?>" aria-label="Next">
                   <span aria-hidden="true">&raquo;</span>
                   <span class="sr-only">Next</span>
                 </a>
               </li>
             </ul>
-          </nav>
-        </div>
-        </ul>
+        </nav>
     </div>
+    </div>
+    </div>
+</div>
     <!--Bootstrap JS-->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
-    </script>
+    <script src="script/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
         integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">
     </script>

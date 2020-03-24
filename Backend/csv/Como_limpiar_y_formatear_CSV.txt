@@ -1,0 +1,3 @@
+1-Usar los OrdenadoresCSV'nombre'.py para organizar los archivos 'nombre'.csv de la carpeta Desordenados.
+2-Con CombinadorCSV.py se los csv con links de imagenes y los csv de la carpeta Ordenados.
+3-El limpiadorCSVPuntosPrecio.py borra el . del campo precio del archivo que se le indique en la carpeta Combinados.

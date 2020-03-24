@@ -19,11 +19,21 @@ body {
     position: relative;
 }
 
+.form-control:focus {
+    outline: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
+
+.btn:focus {
+    outline: 0 !important;
+}
+
 /* N A V B A R */
 
 @media (min-width: 990px) {
     .navbar {
-        height:40px;
+        height: 40px;
     }
 }
 
@@ -33,19 +43,17 @@ body {
 
 #contactanos {
     padding-right: 30px;
-    color:#fc21f9;
+    color: #fc21f9;
     font-size: small;
 }
 
 #contactanos:hover {
     color: #4999fc;
-    transition-delay:0.001s;
+    transition-delay: 0.001s;
 }
 
-
-#casa{
-    padding-right: 30px;
-    color:#4999fc;
+#casa {
+    color: #4999fc;
     font-size: small;
 }
 
@@ -55,11 +63,10 @@ body {
     margin-right: auto;
 }
 
-
 #pos_logo {
     z-index: 1;
     left: -1%;
-    padding: 0; 
+    padding: 0;
     height: auto;
     width: 180px;
 }
@@ -67,12 +74,14 @@ body {
 #boton-buscar {
     height: 25px;
 }
+
 .icono_lupa {
     position: relative;
     width: 15px;
     height: auto;
     left: -10px;
 }
+
 .icono {
     position: relative;
     left: -5px;
@@ -83,22 +92,43 @@ body {
     color: white;
 }
 
-/* C A R O U S E L */
-
-.carousel-caption {
-    color: black;
+/* C A R D */
+.card-title {
+    font-size: 180%;
+    text-align: center;
 }
 
-.carousel-indicators,
-.carousel-control-next,
-.carousel-control-prev {
-    filter: invert(100%);
+.card-text {
+    font-size: 100%;
+    text-align: center;
 }
 
-.texto-carousel {
+.card-img-top {
+    width: 50%; 
+    align-self: center; 
+    margin-top:5%;
+}
+
+ul .list-group-item {
+    padding: 2%;
     font-size: small;
-    line-height: 1;
-    padding-bottom: 5%;
+}
+
+.btn-primary {
+    background-color: #48146d;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #4999fc;
+}
+
+div .fondo-cuadrado {
+    background-color: white;
+    padding: 0px;
+    z-index: 0;
+    margin: 0;
+    vertical-align: top;
 }
 
 .borde-pag-completa {
@@ -107,3 +137,4 @@ body {
     border-bottom: 2px solid #fc21f9;
     padding: 0;
 }
+

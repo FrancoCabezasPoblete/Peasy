@@ -1,0 +1,12 @@
+Ordenar un array asociativo dado un valor de una llave:
+https://stackoverflow.com/questions/1597736/how-to-sort-an-array-of-associative-arrays-by-value-of-a-given-key-in-php
+
+Formatear numeros para poner puntos cada 3 digitos:
+https://stackoverflow.com/questions/2038755/how-to-put-a-dot-after-three-digits-of-a-number
+
+Curso PHP y MYSQL:
+https://www.youtube.com/playlist?list=PLPl81lqbj-4KPLqegK5DNKWSFBzn8QTbq
+
+pass: peasyusm33
+userdb: root
+passdb: root65

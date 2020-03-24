@@ -6,7 +6,3 @@ https://stackoverflow.com/questions/2038755/how-to-put-a-dot-after-three-digits-
 
 Curso PHP y MYSQL:
 https://www.youtube.com/playlist?list=PLPl81lqbj-4KPLqegK5DNKWSFBzn8QTbq
-
-pass: peasyusm33
-userdb: root
-passdb: root65

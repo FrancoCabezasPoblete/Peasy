@@ -1,0 +1,171 @@
+nombre,precio,socket,chipset,memorias,formato,tipomemoria,link
+ECS KAM1-I,26.011,FS1b,AMD AM1 (FS1b),2x DDR3,Mini ITX,DDR3,https://www.solotodo.com/products/17158-ecs-kam1-i-89-206-ke2100
+ASUS F1A75-M LE,27.900,FM1,AMD A75 (FM1),2x DDR3,Micro ATX,DDR3,https://www.solotodo.com/products/3473-asus-f1a75-m-le
+ASUS A68HM-Plus,33.190,FM2+,AMD A68H (FM2+),2x DDR3,Micro ATX,DDR3,https://www.solotodo.com/products/19778-asus-a68hm-plus
+ASUS A68HM-E,36.990,FM2+,AMD A68H (FM2+),2x DDR3,Micro ATX,DDR3,https://www.solotodo.com/products/19326-asus-a68hm-e
+ASRock FM2A68M-DG3+,39.990,FM2+,AMD A68H (FM2+),2x DDR3,Micro ATX,DDR3,https://www.solotodo.com/products/42895-asrock-fm2a68m-dg3
+ECS H110M4-C23,42.990,LGA 1151,Intel H110 (LGA 1151),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/27068-ecs-h110m4-c23-89-206-kt2100
+MSI B250M PRO-VH,44.992,LGA 1151,Intel B250 (LGA 1151),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/31744-msi-b250m-pro-vh
+MSI H110M PRO-VH,45.990,LGA 1151,Intel H110 (LGA 1151),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/22854-msi-h110m-pro-vh
+MSI H110M PRO-VH PLUS,46.208,LGA 1151,Intel H110 (LGA 1151),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/31746-msi-h110m-pro-vh-plus
+ASUS PRIME H110M-P,47.990,LGA 1151,Intel H110 (LGA 1151),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/40910-asus-prime-h110m-p-90mb0ur0-m0aay0
+ASUS H110M-E/M.2,47.990,LGA 1151,Intel H110 (LGA 1151),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/30981-asus-h110m-em2
+ASUS H110M-R/C/SI,48.990,LGA 1151,Intel H110 (LGA 1151),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/26756-asus-h110m-rcsi
+MSI H81M-E33,49.900,LGA 1150,Intel H81 (LGA 1150),2x DDR3,Micro ATX,DDR3,https://www.solotodo.com/products/11593-msi-h81m-e33
+Biostar A320MH,50.900,AM4,AMD A320 (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/71255-biostar-a320mh
+ASUS H81M-K,56.900,LGA 1150,Intel H81 (LGA 1150),2x DDR3,Micro ATX,DDR3,https://www.solotodo.com/products/14551-asus-h81m-k
+MSI A320M PRO-M2,56.900,AM4,AMD A320 (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/55630-msi-a320m-pro-m2
+ASRock 760GM-HDV,56.991,AM3+,AMD 760G (AM3+),2x DDR3,Micro ATX,DDR3,https://www.solotodo.com/products/48259-asrock-760gm-hdv
+ASRock A320M-HDV R4.0,55.900,AM4,AMD A320 (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/60905-asrock-a320m-hdv-r40
+ASRock H110M-HDV,57.990,LGA 1151,Intel H110 (LGA 1151),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/51469-asrock-h110m-hdv
+Biostar H310MHP,57.990,LGA 1151-v2,Intel H310 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/71931-biostar-h310mhp
+MSI H310M PRO-VDH PLUS,57.890,LGA 1151-v2,Intel H310 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/59732-msi-h310m-pro-vdh-plus
+Gigabyte H310M H 2.0,58.900,LGA 1151-v2,Intel H310 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/66876-gigabyte-h310m-h-20
+ASUS PRIME A320M-K,57.900,AM4,AMD A320 (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/37082-asus-prime-a320m-k
+ASRock H110M-DGS,58.990,LGA 1151,Intel H110 (LGA 1151),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/37873-asrock-h110m-dgs
+Gigabyte H310M DS2,58.890,LGA 1151-v2,Intel H310 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/71804-gigabyte-h310m-ds2
+MSI A320M PRO-M2 V2,58.976,AM4,AMD A320 (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/61163-msi-a320m-pro-m2-v2
+ASRock H310CM-HDV,57.900,LGA 1151-v2,Intel H310 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/58987-asrock-h310cm-hdv
+ASUS PRIME H310M-E R2.0,59.490,LGA 1151-v2,Intel H310 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/57194-asus-prime-h310m-e-r20
+ASUS PRIME H310M-E,59.690,LGA 1151-v2,Intel H310 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/44204-asus-prime-h310m-e
+Gigabyte GA-A320M-H,59.900,AM4,AMD A320 (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/71803-gigabyte-ga-a320m-h
+ASUS H110M-D,59.990,LGA 1151,Intel H110 (LGA 1151),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/26712-asus-h110m-d
+ASUS H87M-PLUS,59.990,LGA 1150,Intel H87 (LGA 1150),4x DDR3,Micro ATX,DDR3,https://www.solotodo.com/products/10787-asus-h87m-plus
+MSI A320M-A PRO MAX,59.990,AM4,AMD A320 (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/75453-msi-a320m-a-pro-max
+MSI H310M PRO-VH,60.990,LGA 1151-v2,Intel H310 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/43863-msi-h310m-pro-vh
+MSI H310M PRO-M2 PLUS,62.500,LGA 1151-v2,Intel H310 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/56993-msi-h310m-pro-m2-plus
+ASRock A320M-HDV,62.990,AM4,AMD A320 (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/37083-asrock-a320m-hdv
+Gigabyte H310M DS2 2.0,64.900,LGA 1151-v2,Intel H310 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/71957-gigabyte-h310m-ds2-20
+MSI B360M PRO-VH,65.056,LGA 1151-v2,Intel B360 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/43861-msi-b360m-pro-vh
+ASRock B450M-HDV R4.0,65.900,AM4,AMD B450 (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/58563-asrock-b450m-hdv-r40
+ASUS B150M-A/M.2,65.990,LGA 1151,Intel B150 (LGA 1151),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/27751-asus-b150m-am2
+MSI B365M PRO-VH,66.990,LGA 1151-v2,Intel B365 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/66434-msi-b365m-pro-vh
+MSI B150M Bazooka,67.990,LGA 1151,Intel B150 (LGA 1151),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/26794-msi-b150m-bazooka
+MSI B450M PRO-M2 V2,68.900,AM4,AMD B450 (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/63580-msi-b450m-pro-m2-v2
+ASRock 970M Pro3,69.900,AM3+,AMD 970 (AM3+),4x DDR3,Micro ATX,DDR3,https://www.solotodo.com/products/73247-asrock-970m-pro3
+MSI B450M PRO-M2,69.920,AM4,AMD B450 (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/50424-msi-b450m-pro-m2
+Gigabyte B450M S2H,71.900,AM4,AMD B450 (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/76451-gigabyte-b450m-s2h
+ASRock B450M/ac,73.900,AM4,AMD B450 (AM4),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/63579-asrock-b450mac
+ASRock B450M Pro4-F,73.990,AM4,AMD B450 (AM4),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/60908-asrock-b450m-pro4-f
+MSI B450M PRO-M2 MAX,76.990,AM4,AMD B450 MAX (AM4),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/67384-msi-b450m-pro-m2-max
+Gigabyte B365M DS3H,78.990,LGA 1151-v2,Intel B365 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/68526-gigabyte-b365m-ds3h
+ASUS PRIME B250M-C/CSM,79.900,LGA 1151,Intel B250 (LGA 1151),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/38182-asus-prime-b250m-ccsm
+MSI B450M BAZOOKA V2,79.990,AM4,AMD B450 (AM4),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/58988-msi-b450m-bazooka-v2
+MSI B365M PRO-VDH,79.990,LGA 1151-v2,Intel B365 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/66435-msi-b365m-pro-vdh
+MSI B450M PRO-VDH PLUS,79.900,AM4,AMD B450 (AM4),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/59231-msi-b450m-pro-vdh-plus
+MSI B360M GAMING PLUS,79.900,LGA 1151-v2,Intel B360 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/45732-msi-b360m-gaming-plus
+ASUS PRIME B365M-A,79.900,LGA 1151-v2,Intel B365 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/70706-asus-prime-b365m-a
+ASUS PRIME B450M-A,82.490,AM4,AMD B450 (AM4),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/51442-asus-prime-b450m-a
+ASRock B450M Pro4,84.990,AM4,AMD B450 (AM4),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/55417-asrock-b450m-pro4
+ASRock H310CM-HDV/M.2,84.990,LGA 1151-v2,Intel H310 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/70340-asrock-h310cm-hdvm2
+ASUS PRIME B360M-A,82.900,LGA 1151-v2,Intel B360 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/44212-asus-prime-b360m-a
+ASUS PRIME H270M-PLUS/CSM,82.900,LGA 1151,Intel H270 (LGA 1151),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/34667-asus-prime-h270m-pluscsm
+ASUS PRIME H370M-PLUS/CSM,89.900,LGA 1151-v2,Intel H370 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/45373-asus-prime-h370m-pluscsm
+MSI B450M PRO-VDH MAX,89.990,AM4,AMD B450 MAX (AM4),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/69113-msi-b450m-pro-vdh-max
+MSI B360M BAZOOKA,89.900,LGA 1151-v2,Intel B360 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/43860-msi-b360m-bazooka
+ASUS PRIME B450M-A/CSM,89.900,AM4,AMD B450 (AM4),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/49379-asus-prime-b450m-acsm
+ASUS B150 Pro,89.900,LGA 1151,Intel B150 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/31287-asus-b150-pro
+Gigabyte B365M DS3H WIFI,93.890,LGA 1151-v2,Intel B365 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/73072-gigabyte-b365m-ds3h-wifi
+MSI B350 PC MATE,94.000,AM4,AMD B350 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/35140-msi-b350-pc-mate
+ASRock B365 Pro4,95.000,LGA 1151-v2,Intel B365 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/58123-asrock-b365-pro4
+ASUS TUF B450M-PLUS GAMING,95.990,AM4,AMD B450 (AM4),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/49377-asus-tuf-b450m-plus-gaming
+ASRock B450 Pro4,96.900,AM4,AMD B450 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/56853-asrock-b450-pro4
+Gigabyte B365 HD3,99.950,LGA 1151-v2,Intel B365 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/70531-gigabyte-b365-hd3
+Gigabyte B365 M AORUS ELITE,100.500,LGA 1151-v2,Intel B365 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/69214-gigabyte-b365-m-aorus-elite
+MSI B150A GAMING PRO,98.900,LGA 1151,Intel B150 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/22857-msi-b150a-gaming-pro
+ASRock B365M-ITX/ac,102.486,LGA 1151-v2,Intel B365 (LGA 1151-v2),2x DDR4,Mini ITX,DDR4,https://www.solotodo.com/products/67234-asrock-b365m-itxac
+Gigabyte B450 AORUS M,104.386,AM4,AMD B450 (AM4),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/50191-gigabyte-b450-aorus-m
+ASUS PRIME B450-PLUS,106.990,AM4,AMD B450 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/49370-asus-prime-b450-plus
+ASUS PRIME B360-PLUS,104.900,LGA 1151-v2,Intel B360 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/44215-asus-prime-b360-plus
+ASUS TUF B365M-PLUS GAMING,108.810,LGA 1151-v2,Intel B365 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/69858-asus-tuf-b365m-plus-gaming
+ASRock Fatal1ty B450 Gaming K4,110.405,AM4,AMD B450 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/49279-asrock-fatal1ty-b450-gaming-k4
+ASRock Z370 Pro4,109.900,LGA 1151-v2,Intel Z370 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/41660-asrock-z370-pro4
+ASRock X370 Pro4,114.990,AM4,AMD X370 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/43235-asrock-x370-pro4
+ASUS TUF B360-PLUS GAMING,112.900,LGA 1151-v2,Intel B360 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/47678-asus-tuf-b360-plus-gaming
+MSI Z270 PC MATE,112.900,LGA 1151,Intel Z270 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/33708-msi-z270-pc-mate
+ASUS PRIME Z270M-PLUS,114.900,LGA 1151,Intel Z270 (LGA 1151),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/37872-asus-prime-z270m-plus
+MSI H370 GAMING PRO CARBON,114.900,LGA 1151-v2,Intel H370 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/43864-msi-h370-gaming-pro-carbon
+Gigabyte GA-Z270M-D3H,115.900,LGA 1151,Intel Z270 (LGA 1151),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/36032-gigabyte-ga-z270m-d3h
+Gigabyte B360 AORUS GAMING 3 WIFI,119.900,LGA 1151-v2,Intel B360 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/45024-gigabyte-b360-aorus-gaming-3-wifi
+ASUS TUF B360M-PLUS GAMING,119.990,LGA 1151-v2,Intel B360 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/45546-asus-tuf-b360m-plus-gaming
+MSI Z270 GAMING M3,117.900,LGA 1151,Intel Z270 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/32368-msi-z270-gaming-m3
+ASUS ROG STRIX B360-H GAMING,118.900,LGA 1151-v2,Intel B360 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/44658-asus-rog-strix-b360-h-gaming
+ASUS TUF B365-PLUS GAMING,119.900,LGA 1151-v2,Intel B365 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/72839-asus-tuf-b365-plus-gaming
+ASUS Z170-K,122.900,LGA 1151,Intel Z170 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/25198-asus-z170-k
+ASRock Fatal1ty B450 Gaming-ITX/ac,127.900,AM4,AMD B450 (AM4),2x DDR4,Mini ITX,DDR4,https://www.solotodo.com/products/49278-asrock-fatal1ty-b450-gaming-itxac
+ASUS TUF B450-PLUS GAMING,124.900,AM4,AMD B450 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/50451-asus-tuf-b450-plus-gaming
+MSI B450 TOMAHAWK,124.900,AM4,AMD B450 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/50189-msi-b450-tomahawk
+MSI Z270 KRAIT GAMING,125.900,LGA 1151,Intel Z270 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/32135-msi-z270-krait-gaming
+ASRock Z390M Pro4,130.578,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/52310-asrock-z390m-pro4
+MSI Z390-A PRO,127.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/52308-msi-z390-a-pro
+Gigabyte Z390 D,131.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/71805-gigabyte-z390-d
+ASRock Z390 Phantom Gaming 4S,132.886,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/62116-asrock-z390-phantom-gaming-4s
+ASRock Z390 Pro4,129.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/53905-asrock-z390-pro4
+MSI Z270 GAMING M5,129.900,LGA 1151,Intel Z270 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/31105-msi-z270-gaming-m5
+Gigabyte B450 AORUS PRO WIFI,134.990,AM4,AMD B450 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/49375-gigabyte-b450-aorus-pro-wifi
+ASUS ROG STRIX B450-F GAMING,135.990,AM4,AMD B450 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/49372-asus-rog-strix-b450-f-gaming
+Gigabyte GA-Z170-GAMING K3,137.000,LGA 1151,Intel Z170 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/26762-gigabyte-ga-z170-gaming-k3-rev-10
+ASUS ROG STRIX B365-F GAMING,134.900,LGA 1151-v2,Intel B365 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/71967-asus-rog-strix-b365-f-gaming
+ASUS PRIME Z390-P,138.990,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/58292-asus-prime-z390-p
+MSI MPG Z390 GAMING PLUS,143.990,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/52307-msi-mpg-z390-gaming-plus
+Gigabyte Z390 UD,144.799,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/52309-gigabyte-z390-ud
+ASUS TUF X470-PLUS GAMING,144.990,AM4,AMD X470 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/46581-asus-tuf-x470-plus-gaming
+Gigabyte Z390 M GAMING,153.890,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/60147-gigabyte-z390-m-gaming
+ASUS Maximus VIII Ranger,149.900,LGA 1151,Intel Z170 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/25191-asus-maximus-viii-ranger
+ASRock Z390 Phantom Gaming 6,155.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/53324-asrock-z390-phantom-gaming-6
+ASRock Z390 Steel Legend,163.500,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/73245-asrock-z390-steel-legend
+Gigabyte GA-Z270N-GAMING 5,159.900,LGA 1151,Intel Z270 (LGA 1151),2x DDR4,Mini ITX,DDR4,https://www.solotodo.com/products/38181-gigabyte-ga-z270n-gaming-5
+ASUS TUF Z390-PLUS GAMING,169.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/52304-asus-tuf-z390-plus-gaming-wi-fi
+ASRock X570 Phantom Gaming 4,166.900,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/64741-asrock-x570-phantom-gaming-4
+ASUS PRIME Z390-A,171.990,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/53325-asus-prime-z390-a
+ASUS TUF Z390M-PRO GAMING,169.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/53664-asus-tuf-z390m-pro-gaming-wi-fi
+ASUS TUF Z370-PLUS GAMING,174.990,LGA 1151-v2,Intel Z370 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/40161-asus-tuf-z370-plus-gaming
+ASUS PRIME X570-P,174.990,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/63606-asus-prime-x570-p
+MSI MAG Z390 TOMAHAWK,170.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/52305-msi-mag-z390-tomahawk
+ASUS TUF Z390-PRO GAMING,176.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/53663-asus-tuf-z390-pro-gaming
+MSI X570-A PRO,174.900,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/65055-msi-x570-a-pro
+ASRock X570 Phantom Gaming 4 WiFi ax,179.990,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/64587-asrock-x570-phantom-gaming-4-wifi-ax
+ASUS TUF Z370-PLUS GAMING II,179.990,LGA 1151-v2,Intel Z370 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/55227-asus-tuf-z370-plus-gaming-ii
+ASRock Fatal1ty Z370 Gaming-ITX/ac,179.900,LGA 1151-v2,Intel Z370 (LGA 1151-v2),2x DDR4,Mini ITX,DDR4,https://www.solotodo.com/products/42207-asrock-fatal1ty-z370-gaming-itxac
+ASUS ROG STRIX Z390-H GAMING,179.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/52285-asus-rog-strix-z390-h-gaming
+Gigabyte GA-Z270X-UD5,180.900,LGA 1151,Intel Z270 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/38174-gigabyte-ga-z270x-ud5
+ASRock X570 Pro4,187.500,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/64588-asrock-x570-pro4
+MSI MPG X570 GAMING PLUS,188.900,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/63831-msi-mpg-x570-gaming-plus
+Gigabyte X570 UD,189.900,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/67586-gigabyte-x570-ud
+MSI MPG Z390 GAMING PRO CARBON,187.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/54273-msi-mpg-z390-gaming-pro-carbon
+ASUS ROG STRIX Z390-I GAMING,189.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),2x DDR4,Mini ITX,DDR4,https://www.solotodo.com/products/54292-asus-rog-strix-z390-i-gaming
+MSI Z170A XPOWER GAMING TITANIUM EDITION,199.900,LGA 1151,Intel Z170 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/25201-msi-z170a-xpower-gaming-titanium-edition
+ASUS TUF GAMING X570-PLUS,219.488,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/65225-asus-tuf-gaming-x570-plus
+ASUS ROG Maximus VIII Hero Alpha,199.900,LGA 1151,Intel Z170 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/30394-asus-rog-maximus-viii-hero-alpha
+Gigabyte Z390 AORUS ELITE,209.760,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/52501-gigabyte-z390-aorus-elite
+Gigabyte Z390 DESIGNARE,211.736,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/53904-gigabyte-z390-designare
+ASRock X570 Steel Legend,209.900,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/64092-asrock-x570-steel-legend
+ASRock X570M Pro4,216.173,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/76872-asrock-x570m-pro4
+ASUS Maximus VIII Gene,210.900,LGA 1151,Intel Z170 (LGA 1151),4x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/22547-asus-maximus-viii-gene
+ASRock X570 Steel Legend WiFi ax,219.900,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/64854-asrock-x570-steel-legend-wifi-ax
+ASUS TUF X299 MARK 2,224.990,LGA 2066,Intel X299 (LGA 2066),8x DDR4,ATX,DDR4,https://www.solotodo.com/products/39530-asus-tuf-x299-mark-2-90mb0ub0-m0aay0
+MSI X299 TOMAHAWK,234.990,LGA 2066,Intel X299 (LGA 2066),8x DDR4,ATX,DDR4,https://www.solotodo.com/products/37874-msi-x299-tomahawk
+MSI MPG X570 GAMING EDGE WIFI,237.396,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/63830-msi-mpg-x570-gaming-edge-wifi
+Gigabyte X570 AORUS ELITE,239.900,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/65454-gigabyte-x570-aorus-elite
+Gigabyte Z390 AORUS ULTRA,259.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/52298-gigabyte-z390-aorus-ultra
+MSI X370 XPOWER GAMING TITANIUM,255.900,AM4,AMD X370 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/35065-msi-x370-xpower-gaming-titanium
+MSI MEG Z390 ACE,275.390,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/52297-msi-meg-z390-ace
+ASUS ROG STRIX Z390-E GAMING,273.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/52834-asus-rog-strix-z390-e-gaming
+ASRock Fatal1ty Z370 Professional Gaming i7,269.900,LGA 1151-v2,Intel Z370 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/41658-asrock-fatal1ty-z370-professional-gaming-i7
+MSI MPG X570 GAMING PRO CARBON WIFI,276.900,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/64853-msi-mpg-x570-gaming-pro-carbon-wifi
+ASUS Z170-DELUXE,279.900,LGA 1151,Intel Z170 (LGA 1151),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/26179-asus-z170-deluxe
+ASUS ROG STRIX X299-E GAMING,299.990,LGA 2066,Intel X299 (LGA 2066),8x DDR4,ATX,DDR4,https://www.solotodo.com/products/39531-asus-rog-strix-x299-e-gaming-90mb0u50-m0aay0
+ASUS PRIME X399-A,305.490,TR4,AMD X399 (TR4),8x DDR4,ATX,DDR4,https://www.solotodo.com/products/40666-asus-prime-x399-a
+ASUS ROG Maximus XI Hero,306.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/55419-asus-rog-maximus-xi-hero-wi-fi
+ASUS ROG Strix X570-F Gaming,312.900,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/66877-asus-rog-strix-x570-f-gaming
+ASRock X570 Taichi,318.900,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/65128-asrock-x570-taichi
+ASUS ROG Maximus XI CODE,339.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/71929-asus-rog-maximus-xi-code
+Gigabyte Z390 AORUS MASTER,358.900,LGA 1151-v2,Intel Z390 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/58702-gigabyte-z390-aorus-master
+MSI MEG X570 ACE,359.990,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/66157-msi-meg-x570-ace
+ASUS ROG Crosshair VIII Hero,398.886,AM4,AMD X570 (AM4),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/64091-asus-rog-crosshair-viii-hero-wi-fi
+ASUS ROG Maximus XI Formula,419.900,LGA 1151-v2,Intel Z370 (LGA 1151-v2),4x DDR4,ATX,DDR4,https://www.solotodo.com/products/53902-asus-rog-maximus-xi-formula
+ASUS ROG MAXIMUS XI GENE,459.000,LGA 1151-v2,Intel Z370 (LGA 1151-v2),2x DDR4,Micro ATX,DDR4,https://www.solotodo.com/products/71253-asus-rog-maximus-xi-gene
+Gigabyte TRX40 AORUS PRO WIFI,465.339,sTRX4,AMD TRX40 (sTRX4),8x DDR4,ATX,DDR4,https://www.solotodo.com/products/70528-gigabyte-trx40-aorus-pro-wifi
+ASUS ROG Crosshair VIII Impact,499.990,AM4,AMD X570 (AM4),2x DDR4,Mini DTX,DDR4,https://www.solotodo.com/products/71254-asus-rog-crosshair-viii-impact
+MSI TRX40 PRO WIFI,522.490,sTRX4,AMD TRX40 (sTRX4),8x DDR4,ATX,DDR4,https://www.solotodo.com/products/76241-msi-trx40-pro-wifi
+MSI MEG X570 GODLIKE,679.990,AM4,AMD X570 (AM4),4x DDR4,Extended ATX,DDR4,https://www.solotodo.com/products/66155-msi-meg-x570-godlike

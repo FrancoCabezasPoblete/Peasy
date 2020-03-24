@@ -1,0 +1,104 @@
+nombre,precio,tipo,capacidad,rpm,tamano,bus,link
+Seagate DB35.3 160 GB,7.990,HDD,160 GB,7200 rpm,3.5"",SATA 2 (3.0 Gb/s),https://www.solotodo.com/products/52641-seagate-db353-160-gb-st3160215sce
+Seagate Pipeline 500 GB,19.990,HDD,500 GB,5900 rpm,3.5"",SATA 2 (3.0 Gb/s),https://www.solotodo.com/products/9373-seagate-pipeline-500-gb-st3500312cs
+Hitachi Travelstar 500 GB,44.990,HDD,500 GB,5400 rpm,2.5"",SATA 2 (3.0 Gb/s),https://www.solotodo.com/products/29720-hitachi-travelstar-500-gb-hts5450b7e660
+Toshiba P300 500 GB,31.900,HDD,500 GB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/27363-toshiba-p300-500-gb-hdwd105uzsva
+Toshiba L200 500 GB,43.990,HDD,500 GB,5400 rpm,2.5"",SATA 2 (3.0 Gb/s),https://www.solotodo.com/products/38694-toshiba-l200-500-gb-hdwk105uzsva
+Western Digital RE3 1 TB,31.990,HDD,1 TB,7200 rpm,3.5"",SATA 2 (3.0 Gb/s),https://www.solotodo.com/products/76900-western-digital-re3-1-tb-wd1002fbys-02a6b0
+Toshiba 500 GB,38.990,HDD,500 GB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/8154-toshiba-500-gb-dt01aca050
+Western Digital Scorpio Blue 500 GB,43.990,HDD,500 GB,5400 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/10201-western-digital-scorpio-blue-500-gb-wd5000lpvx
+Toshiba P300 1 TB,38.990,HDD,1 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/27364-toshiba-p300-1-tb-hdwd110uzsva
+Seagate Barracuda Compute 500 GB,37.990,HDD,500 GB,5400 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/33619-seagate-barracuda-compute-500-gb-st500lm030
+Western Digital Blue 1 TB,51.990,HDD,1 TB,5400 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/38697-western-digital-blue-1-tb-wd10spzx
+Western Digital Blue 500 GB,41.990,HDD,500 GB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/22355-western-digital-blue-500-gb-wd5000azlx
+Western Digital Purple 1 TB,44.990,HDD,1 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/37544-western-digital-purple-1-tb-wd10purz
+Seagate Barracuda 1 TB,40.900,HDD,1 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/4822-seagate-barracuda-1-tb-st1000dm003
+Seagate Barracuda Compute 1 TB,40.900,HDD,1 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/31383-seagate-barracuda-compute-1-tb-st1000dm010
+Seagate SkyHawk 1 TB,41.690,HDD,1 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/33634-seagate-skyhawk-1-tb-st1000vx005
+Hitachi Ultrastar 1 TB,41.990,HDD,1 TB,7200 rpm,3.5"",SATA 2 (3.0 Gb/s),https://www.solotodo.com/products/42155-hitachi-ultrastar-1-tb-hua721010kla330
+Toshiba 1 TB,48.990,HDD,1 TB,5400 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/45727-toshiba-1-tb-mq04abf100
+Toshiba V300 1 TB,44.990,HDD,1 TB,5700 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/53379-toshiba-v300-1-tb-hdwu110uzsva
+Seagate Pipeline 2 TB,44.990,HDD,2 TB,5900 rpm,3.5"",SATA 2 (3.0 Gb/s),https://www.solotodo.com/products/9662-seagate-pipeline-2-tb-st2000vm003
+HGST Ultrastar A7K2000 1 TB,44.990,HDD,1 TB,7200 rpm,3.5"",SATA 2 (3.0 Gb/s),https://www.solotodo.com/products/69358-hgst-ultrastar-a7k2000-1-tb-hua722010cla331
+Hitachi Deskstar 500 GB,46.990,HDD,500 GB,5400 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/32287-hitachi-deskstar-500-gb-0j41955
+Toshiba V300 2 TB,47.900,HDD,2 TB,5700 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/53378-toshiba-v300-2-tb-hdwu120uzsva
+Toshiba L200 1 TB,49.990,HDD,1 TB,5400 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/45865-toshiba-l200-1-tb-hdwl110uzsva
+Western Digital Black 1 TB,71.490,HDD,1 TB,7200 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/73012-western-digital-black-1-tb-wd10spsx
+Seagate Momentus 1 TB,49.990,HDD,1 TB,5400 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/33941-seagate-momentus-1-tb-st1000lm048
+Seagate Mobile HDD 1 TB,52.990,HDD,1 TB,5400 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/35434-seagate-mobile-hdd-1-tb-st1000lm035
+Western Digital Blue 2 TB,56.990,HDD,2 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/62343-western-digital-blue-2-tb-wd20ezaz
+Western Digital Black 500 GB,54.191,HDD,500 GB,7200 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/21383-western-digital-black-500-gb-wd5000lplx
+Seagate SkyHawk 2 TB,55.290,HDD,2 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/33620-seagate-skyhawk-2-tb-st2000vx008
+Seagate Barracuda 2 TB,56.990,HDD,2 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/59794-seagate-barracuda-2-tb-st2000dm008
+Western Digital Purple 2 TB,64.900,HDD,2 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/15268-western-digital-purple-2-tb-wd20purx
+Toshiba P300 2 TB,58.990,HDD,2 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/26555-toshiba-p300-2-tb-hdwd120uzsva
+Seagate IronWolf NAS 2 TB,69.990,HDD,2 TB,5900 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/33744-seagate-ironwolf-nas-2-tb-st2000vn004
+Toshiba L200 2 TB,72.352,HDD,2 TB,5400 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/52640-toshiba-l200-2-tb-hdwl120uzsva
+Seagate Barracuda Compute 2 TB,74.990,HDD,2 TB,5400 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/35682-seagate-barracuda-compute-2-tb-st2000lm015
+Seagate FireCuda 1 TB,75.098,Híbrido,1 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/33616-seagate-firecuda-1-tb-st1000dx002
+Western Digital Purple 3 TB,76.980,HDD,3 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/37545-western-digital-purple-3-tb-wd30purz
+Western Digital Red 2 TB,87.990,HDD,2 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/64466-western-digital-red-2-tb-wd20efax
+Seagate Barracuda 4 TB,89.890,HDD,4 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/41869-seagate-barracuda-4-tb-st4000dm004
+Western Digital Purple 4 TB,92.900,HDD,4 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/15747-western-digital-purple-4-tb-wd40purx
+HP 1 TB,99.990,HDD,1 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/46471-hp-1-tb-861686-b21
+Western Digital Blue 3 TB,92.990,HDD,3 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/22358-western-digital-blue-3-tb-wd30ezrz
+Western Digital Black 2 TB,94.990,HDD,2 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/14586-western-digital-black-2-tb-wd2003fzex
+Toshiba S300 4 TB,97.990,HDD,4 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/46729-toshiba-s300-4-tb-hdwt140uzsva
+IBM 1 TB,99.990,HDD,1 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/24381-ibm-1-tb-43w7622
+Seagate Barracuda Pro 2 TB,108.890,HDD,2 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/40705-seagate-barracuda-pro-2-tb-st2000dm009
+Western Digital Red 4 TB,118.990,HDD,4 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/13872-western-digital-red-4-tb-wd40efrx
+Seagate SkyHawk 4 TB,122.430,HDD,4 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/33617-seagate-skyhawk-4-tb-st4000vx007
+Toshiba X300 4 TB,127.990,HDD,4 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/23044-toshiba-x300-4-tb-hdwe140xzsta
+Toshiba 4 TB,128.990,HDD,4 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/18328-toshiba-4-tb-ph3400u-1i72
+Toshiba S300 5 TB,129.000,HDD,5 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/49316-toshiba-s300-5-tb-hdwt150uzsva
+Lenovo 300 GB,129.981,SAS,300 GB,10000 rpm,2.5"",SAS,https://www.solotodo.com/products/58290-lenovo-300-gb-7xb7a00024
+Toshiba N300 4 TB,129.690,HDD,4 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/36823-toshiba-n300-4-tb-hdwq140xzsta
+Seagate IronWolf NAS 4 TB,143.250,HDD,4 TB,5900 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/33704-seagate-ironwolf-nas-4-tb-st4000vn008
+Dell 1 TB,144.990,HDD,1 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/74976-dell-1-tb-400-aupw
+HP 2 TB,149.990,HDD,2 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/32992-hp-2-tb-801884-b21
+Toshiba X300 5 TB,150.990,HDD,5 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/23050-toshiba-x300-5-tb-hdwe150xzsta
+Lenovo 1 TB,153.252,HDD,1 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/58104-lenovo-1-tb-4xb7a13554
+Dell 2 TB,351.270,HDD,2 TB,7200 rpm,2.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/58383-dell-2-tb-400-atjz
+Western Digital Purple 6 TB,176.990,HDD,6 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/18609-western-digital-purple-6-tb-wd60purx
+Western Digital Gold 4 TB,179.500,HDD,4 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/73057-western-digital-gold-4-tb-wd4003fryz
+Seagate SkyHawk 6 TB,179.990,HDD,6 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/33949-seagate-skyhawk-6-tb-st6000vx0023
+Western Digital Red 6 TB,192.185,HDD,6 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/58914-western-digital-red-6-tb-wd60efax
+Seagate IronWolf NAS 6 TB,189.334,HDD,6 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/53770-seagate-ironwolf-nas-6-tb-st6000vn0033
+Lenovo 900 GB,192.179,SAS,900 GB,10000 rpm,2.5"",SAS,https://www.solotodo.com/products/51007-lenovo-900-gb-7xb7a00026
+Toshiba N300 6 TB,192.980,HDD,6 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/36701-toshiba-n300-6-tb-hdwn160xzsta
+Western Digital Blue 6 TB,192.990,HDD,6 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/23441-western-digital-blue-6-tb-wd60ezrz
+Lenovo 1200 GB,303.900,SAS,1200 GB,10000 rpm,2.5"",SAS,https://www.solotodo.com/products/76620-lenovo-1200-gb-4xb7a14112
+Toshiba S300 8 TB,209.990,HDD,8 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/50119-toshiba-s300-8-tb-hdwt380uzsva
+Western Digital Purple Surveillance 8 TB,211.491,HDD,8 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/64467-western-digital-purple-surveillance-8-tb-wd82purz
+Toshiba X300 6 TB,212.990,HDD,6 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/33205-toshiba-x300-6-tb-hdwe160xzsta
+Western Digital Black 4 TB,214.586,HDD,4 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/46730-western-digital-black-4-tb-wd4005fzbx
+Dell 4 TB,387.217,HDD,4 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/51168-dell-4-tb-400-atkn
+Seagate Surveillance 8 TB,222.990,HDD,8 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/33629-seagate-surveillance-8-tb-st8000vx0022
+Western Digital Red 8 TB,237.342,HDD,8 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/46707-western-digital-red-8-tb-wd80efax
+Western Digital Gold 6 TB,245.500,HDD,6 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/71632-western-digital-gold-6-tb-wd6003fryz
+Lenovo 4 TB,248.770,SAS,4 TB,7200 rpm,3.5"",SCSI,https://www.solotodo.com/products/55140-lenovo-4-tb-4xb7a14099
+Toshiba X300 8 TB,268.128,HDD,8 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/39239-toshiba-x300-8-tb-hdwf180xzsta
+Western Digital Purple 10 TB,268.990,HDD,10 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/55340-western-digital-purple-10-tb-wd101purz
+Toshiba N300 8 TB,279.990,HDD,8 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/36702-toshiba-n300-8-tb-hdwn180xzsta
+HP 300 GB,286.834,HDD,300 GB,15000 rpm,3.5"",SAS,https://www.solotodo.com/products/54906-hp-300-gb-p04693-b21
+Seagate IronWolf NAS 10 TB,289.990,HDD,10 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/75853-seagate-ironwolf-nas-10-tb-st10000vn0008
+Seagate SkyHawk 10 TB,295.990,HDD,10 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/33618-seagate-skyhawk-10-tb-st10000vx0004
+Dell 1200 GB,332.211,HDD,1200 GB,10000 rpm,2.5"",SAS,https://www.solotodo.com/products/55987-dell-1200-gb-400-atjl
+Toshiba S300 10 TB,349.990,HDD,10 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/74669-toshiba-s300-10-tb-hdwt31auzsvar
+Lenovo 1800 GB,345.508,SAS,1800 GB,10000 rpm,2.5"",SAS,https://www.solotodo.com/products/55210-lenovo-1800-gb-4xb7a14113
+Seagate Surveillance 12 TB,349.990,HDD,12 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/58379-seagate-surveillance-12-tb-st12000vx0008
+Western Digital Red 10 TB,359.990,HDD,10 TB,5400 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/38696-western-digital-red-10-tb-wd100efax
+Lenovo 600 GB,363.017,SAS,600 GB,15000 rpm,2.5"",SAS,https://www.solotodo.com/products/55084-lenovo-600-gb-7xb7a00022
+Western Digital Gold 10 TB,382.500,HDD,10 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/71633-western-digital-gold-10-tb-wd102kryz
+Toshiba N300 NAS 12 TB,438.368,HDD,12 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/57521-toshiba-n300-nas-12-tb-hdwg21cxzsta
+Lenovo 2400 GB,480.110,SAS,2400 GB,10000 rpm,2.5"",SAS,https://www.solotodo.com/products/54575-lenovo-2400-gb-7xb7a00069
+Toshiba X300 Performance 12 TB,497.806,HDD,12 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/65123-toshiba-x300-performance-12-tb-hdwr21cxzsta
+Toshiba N300 NAS 14 TB,530.176,HDD,14 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/57519-toshiba-n300-nas-14-tb-hdwg21exzsta
+HP 600 GB,546.685,SAS,600 GB,15000 rpm,3.5"",SAS,https://www.solotodo.com/products/55399-hp-600-gb-p04695-b21
+Dell 1800 GB,551.749,HDD,1800 GB,10000 rpm,2.5"",SAS,https://www.solotodo.com/products/55986-dell-1800-gb-400-atjr
+Toshiba X300 Performance 14 TB,578.835,HDD,14 TB,7200 rpm,3.5"",SATA 3 (6.0 Gb/s),https://www.solotodo.com/products/65065-toshiba-x300-performance-14-tb-hdwr21exzsta
+Lenovo 2 TB,615.332,SAS,2 TB,7200 rpm,2.5"",SAS,https://www.solotodo.com/products/55211-lenovo-2-tb-7xb7a00035
+HP 960 GB,622.161,HDD,960 GB,5400 rpm,2.5"",SAS,https://www.solotodo.com/products/65402-hp-960-gb-p10448-b21
+HP 8 TB,630.180,SAS,8 TB,7200 rpm,3.5"",SAS,https://www.solotodo.com/products/52753-hp-8-tb-819201-b21
+HP 6 TB,887.705,SAS,6 TB,7200 rpm,2.5"",SAS,https://www.solotodo.com/products/68806-hp-6-tb-j9f43a
+HP 1800 GB,897.810,HDD,1800 GB,10000 rpm,2.5"",SAS,https://www.solotodo.com/products/42159-hp-1800-gb-j9f49a

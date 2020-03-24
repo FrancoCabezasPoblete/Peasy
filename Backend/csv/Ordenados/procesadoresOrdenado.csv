@@ -1,0 +1,71 @@
+nombre,precio,frecuencia,nucleos,socket,cache,arquitectura,link
+Intel Celeron G1820,19.390,2700 MHz,2,LGA 1150,2 x 256KB L2 / 2MB L3,Intel Haswell,https://www.solotodo.com/products/16307-intel-celeron-g1820-bx80646g1820
+AMD A4-6300,34.990,3700 - 3900 MHz,2,FM2,1MB L2 / No posee L3,AMD Richland,https://www.solotodo.com/products/14037-amd-a4-6300-ad6300okhlbox
+Intel Celeron G3930,37.900,2900 MHz,2,LGA 1151,2 x 256KB L2 / 2MB L3,Intel Kaby Lake,https://www.solotodo.com/products/32459-intel-celeron-g3930-bx80677g3930
+Intel Celeron G4900,38.179,3100 MHz,2,LGA 1151-v2,2 x 256KB L2 / 2 x 1MB L3,Intel Coffee Lake S,https://www.solotodo.com/products/53374-intel-celeron-g4900-bx80684g4900
+Intel Pentium G4500,39.900,3500 MHz,2,LGA 1151,2 x 256KB L2 / 3MB L3,Intel Skylake,https://www.solotodo.com/products/22502-intel-pentium-g4500-bx80662g4500
+AMD A6-9500,42.900,3500 - 3800 MHz,2,AM4,1MB L2 / No posee L3,AMD Bristol Ridge,https://www.solotodo.com/products/41508-amd-a6-9500-ad9500agabbox
+AMD A6-7400K,44.990,3500 - 3900 MHz,2,FM2+,1MB L2 / No posee L3,AMD Kaveri,https://www.solotodo.com/products/17636-amd-a6-7400k-ad740kybjabox
+Intel Celeron G4920,46.074,3200 MHz,2,LGA 1151-v2,2 x 256KB L2 / 2 x 1MB L3,Intel Coffee Lake S,https://www.solotodo.com/products/53375-intel-celeron-g4920-bx80684g4920
+Intel Pentium G3250,47.990,3200 MHz,2,LGA 1150,2 x 256KB L2 / 3MB L3,Intel Haswell,https://www.solotodo.com/products/18692-intel-pentium-g3250-bx80646g3250
+Intel Celeron G4930,48.520,3200 MHz,2,LGA 1151-v2,2 x 256KB L2 / 2 x 1MB L3,Intel Coffee Lake S,https://www.solotodo.com/products/71724-intel-celeron-g4930-bx80684g4930
+AMD Athlon 3000G,49.990,3500 MHz,2,AM4,2 x 512KB L2 / 4MB L3,AMD Raven Ridge,https://www.solotodo.com/products/70701-amd-athlon-3000g-yd3000c6fhbox
+AMD Athlon 200GE,55.091,3200 MHz,2,AM4,2 x 512KB L2 / 4MB L3,AMD Raven Ridge,https://www.solotodo.com/products/52284-amd-athlon-200ge-yd200gc6fbbox
+Intel Core i3-4170,56.900,3700 MHz,2,LGA 1150,2 x 256KB L2 / 3MB L3,Intel Haswell,https://www.solotodo.com/products/20199-intel-core-i3-4170-bx80646i34170
+AMD A8-9600,55.900,3100 - 3400 MHz,4,AM4,2 x 1MB L2 / No posee L3,AMD Bristol Ridge,https://www.solotodo.com/products/41509-amd-a8-9600-ad9600agabbox
+Intel Pentium Gold G5400,59.584,3700 MHz,2,LGA 1151-v2,2 x 256KB L2 / 4MB L3,Intel Coffee Lake S,https://www.solotodo.com/products/49381-intel-pentium-gold-g5400-bx80684g5400
+AMD Athlon 240GE,60.791,3500 MHz,2,AM4,2 x 512KB L2 / 4MB L3,AMD Raven Ridge,https://www.solotodo.com/products/56836-amd-athlon-240ge-yd240gc6fbbox
+Intel Core 2 Duo E7500,76.000,2930 MHz,2,LGA 775,3MB L2 / No posee L3,Intel Wolfdale,https://www.solotodo.com/products/1533-intel-core-2-duo-e7500
+Intel Core i3-9100F,82.890,3600 - 4200 MHz,4,LGA 1151-v2,4 x 256KB L2 / 6MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/61292-intel-core-i3-9100f-bx80684i39100f
+Intel Pentium Gold G5600,84.880,3900 MHz,2,LGA 1151-v2,2 x 256KB L2 / 2 x 2MB L3,Intel Coffee Lake S,https://www.solotodo.com/products/56834-intel-pentium-gold-g5600-bx80684g5600
+AMD Ryzen 3 3200G,99.000,3600 - 4000 MHz,4,AM4,4 x 512KB L2 / 4MB L3,AMD Picasso,https://www.solotodo.com/products/63489-amd-ryzen-3-3200g-yd3200c5fhbox
+AMD Ryzen 3 2200G,99.990,3500 - 3700 MHz,4,AM4,4 x 512KB L2 / 4MB L3,AMD Raven Ridge,https://www.solotodo.com/products/42855-amd-ryzen-3-2200g-yd2200c5fbbox
+Intel Core i3-7350K,107.990,4200 MHz,2,LGA 1151,2 x 256KB L2 / 4MB L3,Intel Kaby Lake,https://www.solotodo.com/products/34900-intel-core-i3-7350k-bx80677i37350k
+Intel Core i3-6100,109.900,3700 MHz,2,LGA 1151,2 x 256KB L2 / 3MB L3,Intel Skylake,https://www.solotodo.com/products/22707-intel-core-i3-6100-bx80662i36100
+Intel Core i3-7100,120.990,3900 MHz,2,LGA 1151,2 x 256KB L2 / 3MB L3,Intel Kaby Lake,https://www.solotodo.com/products/31368-intel-core-i3-7100-bx80677i37100
+Intel Core i3-8100,122.890,3600 MHz,4,LGA 1151-v2,4 x 256KB L2 / 6MB L3,Intel Coffee Lake S,https://www.solotodo.com/products/40482-intel-core-i3-8100-bx80684i38100
+Intel Core i3-9100,125.900,3600 - 4200 MHz,4,LGA 1151-v2,4 x 256KB L2 / 6MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/63828-intel-core-i3-9100-bx80684i39100
+Intel Core i3-8300,134.980,3700 MHz,4,LGA 1151-v2,4 x 256KB L2 / 8MB L3,Intel Coffee Lake S,https://www.solotodo.com/products/47213-intel-core-i3-8300-bx80684i38300
+AMD Ryzen 5 2600,136.500,3400 - 3900 MHz,6,AM4,6 x 512KB L2 / 16MB L3,AMD Pinnacle Ridge,https://www.solotodo.com/products/43659-amd-ryzen-5-2600-yd2600bbafbox
+AMD Ryzen 5 2400G,139.990,3600 - 3900 MHz,4,AM4,4 x 512KB L2 / 4MB L3,AMD Raven Ridge,https://www.solotodo.com/products/42821-amd-ryzen-5-2400g-yd2400c5fbbox
+Intel Core i5-9400F,155.400,2900 - 4100 MHz,6,LGA 1151-v2,6 x 256KB L2 / 9MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/56956-intel-core-i5-9400f-bx80684i59400f
+AMD Ryzen 5 3400G,165.900,3700 - 4200 MHz,4,AM4,4 x 512KB L2 / 4MB L3,AMD Picasso,https://www.solotodo.com/products/63488-amd-ryzen-5-3400g-yd3400c5fhbox
+AMD Ryzen 5 2600X,166.990,3600 - 4200 MHz,6,AM4,6 x 512KB L2 / 16MB L3,AMD Pinnacle Ridge,https://www.solotodo.com/products/44382-amd-ryzen-5-2600x-yd260xbcafbox
+Intel Core i5-6400,167.990,2700 - 3300 MHz,4,LGA 1151,4 x 256KB L2 / 6MB L3,Intel Skylake,https://www.solotodo.com/products/22117-intel-core-i5-6400-bx80662i56400
+Intel Core i5-7400,179.900,3000 - 3500 MHz,4,LGA 1151,4 x 256KB L2 / 6MB L3,Intel Kaby Lake,https://www.solotodo.com/products/31099-intel-core-i5-7400-bx80677i57400
+AMD Ryzen 7 2700,189.991,3200 - 4100 MHz,8,AM4,8 x 512KB L2 / 2 x 8MB L3,AMD Pinnacle Ridge,https://www.solotodo.com/products/43104-amd-ryzen-7-2700-yd2700bbafbox
+Intel Core i5-6600,184.900,3300 - 3900 MHz,4,LGA 1151,4 x 256KB L2 / 6MB L3,Intel Skylake,https://www.solotodo.com/products/22504-intel-core-i5-6600-bx80662i56600
+Intel Core i5-8400,194.900,2800 - 4000 MHz,6,LGA 1151-v2,6 x 256KB L2 / 9MB L3,Intel Coffee Lake S,https://www.solotodo.com/products/41181-intel-core-i5-8400-bx80684i58400
+AMD Ryzen 5 3600,195.500,3600 - 4200 MHz,6,AM4,6 x 512KB L2 / 2 x 16MB L3,AMD Matisse,https://www.solotodo.com/products/63490-amd-ryzen-5-3600-100-100000031box
+Intel Core i5-7500,199.990,3400 - 3800 MHz,4,LGA 1151,4 x 256KB L2 / 6MB L3,Intel Kaby Lake,https://www.solotodo.com/products/31100-intel-core-i5-7500-bx80677i57500
+Intel Core i5-6600K,199.900,3500 - 3900 MHz,4,LGA 1151,4 x 256KB L2 / 6MB L3,Intel Skylake,https://www.solotodo.com/products/21230-intel-core-i5-6600k-bx80662i56600k
+Intel Core i5-7600K,205.990,3800 - 4200 MHz,4,LGA 1151,4 x 256KB L2 / 6MB L3,Intel Kaby Lake,https://www.solotodo.com/products/31224-intel-core-i5-7600k-bx80677i57600k
+Intel Core i5-9400,214.990,2900 - 4100 MHz,6,LGA 1151-v2,6 x 256KB L2 / 9MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/62229-intel-core-i5-9400-bx80684i59400
+AMD Ryzen 7 2700X,216.990,3700 - 4300 MHz,8,AM4,8 x 512KB L2 / 2 x 8MB L3,AMD Pinnacle Ridge,https://www.solotodo.com/products/43660-amd-ryzen-7-2700x-yd270xbgafbox
+Intel Core i5-9600KF,219.990,3700 - 4600 MHz,6,LGA 1151-v2,6 x 256KB L2 / 9MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/61825-intel-core-i5-9600kf-bx80684i59600kf
+Intel Core i5-8600K,227.990,3600 - 4300 MHz,6,LGA 1151-v2,6 x 256KB L2 / 9MB L3,Intel Coffee Lake S,https://www.solotodo.com/products/40159-intel-core-i5-8600k-bx80684i58600k
+Intel Core i7-6700,229.900,3400 - 4000 MHz,4,LGA 1151,4 x 256KB L2 / 8MB L3,Intel Skylake,https://www.solotodo.com/products/23453-intel-core-i7-6700-bx80662i76700
+Intel Core i5-8500,227.900,3000 - 4100 MHz,6,LGA 1151-v2,6 x 256KB L2 / 9MB L3,Intel Coffee Lake S,https://www.solotodo.com/products/44671-intel-core-i5-8500-bx80684i58500
+AMD Ryzen 5 3600X,235.900,3800 - 4400 MHz,6,AM4,6 x 512KB L2 / 2 x 16MB L3,AMD Matisse,https://www.solotodo.com/products/63524-amd-ryzen-5-3600x-100-100000022box
+Intel Core i5-9600K,259.900,3700 - 4600 MHz,6,LGA 1151-v2,6 x 256KB L2 / 9MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/52283-intel-core-i5-9600k-bx80684i59600k
+Intel Core i7-8700,300.000,3200 - 4600 MHz,6,LGA 1151-v2,6 x 256KB L2 / 12MB L3,Intel Coffee Lake S,https://www.solotodo.com/products/40542-intel-core-i7-8700-bx80684i78700
+AMD Ryzen 7 3700X,336.900,3600 - 4400 MHz,8,AM4,8 x 512KB L2 / 2 x 16MB L3,AMD Matisse,https://www.solotodo.com/products/63564-amd-ryzen-7-3700x-100-100000071box
+Intel Core i7-9700F,349.990,3000 - 4700 MHz,8,LGA 1151-v2,8 x 256KB L2 / 8 x 2MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/67133-intel-core-i7-9700f-bx80684i79700f
+Intel Core i7-7700,368.990,3600 - 4200 MHz,4,LGA 1151,4 x 256KB L2 / 8MB L3,Intel Kaby Lake,https://www.solotodo.com/products/31102-intel-core-i7-7700-bx80677i77700
+AMD Ryzen 7 3800X,378.000,3900 - 4500 MHz,8,AM4,8 x 512KB L2 / 2 x 16MB L3,AMD Matisse,https://www.solotodo.com/products/64470-amd-ryzen-7-3800x-100-100000025box
+Intel Core i7-9700,379.990,3000 MHz,8,LGA 1151-v2,8 x 256KB L2 / 8 x 2MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/63925-intel-core-i7-9700-bx80684i79700
+Intel Core i7-8700K,378.900,3700 - 4700 MHz,6,LGA 1151-v2,6 x 256KB L2 / 12MB L3,Intel Coffee Lake S,https://www.solotodo.com/products/40543-intel-core-i7-8700k-bx80684i78700k
+Intel Core i7-9700KF,419.990,3600 - 4900 MHz,8,LGA 1151-v2,8 x 256KB L2 / 8 x 2MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/66943-intel-core-i7-9700kf-bx80684i79700kf
+Intel Core i7-9700K,435.900,3600 - 4900 MHz,8,LGA 1151-v2,8 x 256KB L2 / 8 x 2MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/52787-intel-core-i7-9700k-bx80684i79700k
+Intel Core i9-9900K,493.991,3600 - 5000 MHz,8,LGA 1151-v2,8 x 256KB L2 / 8 x 2MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/52663-intel-core-i9-9900k-bx80684i99900k
+Intel Core i9-9900KF,499.990,3600 - 5000 MHz,8,LGA 1151-v2,8 x 256KB L2 / 8 x 2MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/62646-intel-core-i9-9900kf-bx80684i99900kf
+AMD Ryzen 9 3900X,586.990,3800 - 4600 MHz,12,AM4,12 x 512KB L2 / 4 x 16MB L3,AMD Matisse,https://www.solotodo.com/products/64117-amd-ryzen-9-3900x-100-100000023box
+Intel Core i9-9900KS,599.990,4000 - 5000 MHz,8,LGA 1151-v2,8 x 256KB L2 / 8 x 2MB L3,Intel Coffee Lake R,https://www.solotodo.com/products/69932-intel-core-i9-9900ks-bx80684i99900kss
+AMD Ryzen Threadripper 2950X,769.990,3500 - 4400 MHz,16,TR4,16 x 512KB L2 / 32MB L3,AMD Colfax,https://www.solotodo.com/products/51729-amd-ryzen-threadripper-2950x-yd295xa8afwof
+Intel Core i9-9900X,798.912,3500 - 4400 MHz,10,LGA 2066,10 x 1MB L2 / 14 x 1MB L3,Intel Skylake-X,https://www.solotodo.com/products/65127-intel-core-i9-9900x-bx80673i99900x
+AMD Ryzen 9 3950X,869.990,3500 - 4700 MHz,16,AM4,16 x 512KB L2 / 4 x 16MB L3,AMD Matisse,https://www.solotodo.com/products/72391-amd-ryzen-9-3950x-100-100000051wof
+Intel Core i9-7920X,1.299.990,2900 - 4400 MHz,12,LGA 2066,12 x 1MB L2 / 17MB L3,Intel Skylake-X,https://www.solotodo.com/products/43727-intel-core-i9-7920x-bx80673i97920x
+Intel Core i9-7940X,1.499.990,3100 - 4400 MHz,14,LGA 2066,14 x 1MB L2 / 19MB L3,Intel Skylake-X,https://www.solotodo.com/products/44591-intel-core-i9-7940x-bx80673i97940x
+AMD Ryzen Threadripper 3960X,1.549.990,3800 - 4500 MHz,24,sTRX4,24 x 512KB L2 / 8 x 16MB L3,AMD Castle Peak,https://www.solotodo.com/products/71720-amd-ryzen-threadripper-3960x-100-100000010wof
+Intel Core i9-7960X,1.799.990,2800 - 4400 MHz,16,LGA 2066,16 x 1MB L2 / 22MB L3,Intel Skylake-X,https://www.solotodo.com/products/43728-intel-core-i9-7960x-bx80673i97960x
+Intel Core i9-9960X,1.899.990,3100 - 4400 MHz,16,LGA 2066,16 x 1MB L2 / 16 x 1MB L3,Intel Skylake-X,https://www.solotodo.com/products/71559-intel-core-i9-9960x-bx80673i99960x

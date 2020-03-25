@@ -1,0 +1,123 @@
+Bloque de codigo:
+	<?php
+	...
+	?>
+
+Para escribir en pantalla:
+	echo 'exampleMSG';
+
+Definir variable:
+	$variable = str/int/boolean
+
+Concatenar:
+	echo $variable1.' sample text '.$variable2.' sample endtext';
+	o
+	echo "$variable1 sample text $variable2 sample endtext"; (Menos seguro)
+
+Condicionales:
+	if:
+		if(condicional){
+			...
+		}else if(){
+			...
+		}else{
+			...
+		}
+
+Operadores:
+	Aritmeticos:
+		+ , - , * , / , % , **
+	Logicos:
+		and , or , xor(si a o b son verdaderos pero no ambos) , !(!$a) , && , ||
+	Comparacion:
+		== , === , != , <>(!= == <>) , !== , < , > , <= , >= , <=>
+Comentar en php:
+	//comentario
+ 
+Ciclos:
+	While:
+		while(condicion){
+			...
+		}
+	DoWhile:
+		do{
+			...
+		}while(condicion);
+	for:
+		for($i = 0; $i<=2;$i++){
+			...
+		}
+	foreach:
+		foreach($array as $i){
+			...
+		}
+	
+Ingresar php en HTML:
+	archivo.php
+		<?php
+		...
+		?>
+		<!DOCTYPE html>
+			...
+		</html>
+
+Printear php dentro de html:
+	ej1:	<h1>sampletext <?php echo $variable ?></h1>
+	ej2:	<?php
+		$i = 0;
+		while($i <= 2){
+			echo '<h1>sampletext'.$variable[$i].'</h1>';
+			$i++
+		}
+		?>
+Arreglos:
+	$array = [] (ej: ['Perro',true,34])
+
+Arreglos Asociativos:
+	$array[0] = [
+		'key1'=>value1,
+		'key2'=>value2
+	];
+	$array[1] = [
+		'key1'=>value3,
+		'key2'=>value4
+	];
+Llamado de arreglos asociativos:
+	$array[1]['key1'] //value3
+
+Recorrer arreglos asociativos:
+	for:
+		for($i = 0; $i<=1;$i++){
+			echo $array[$i]['key1']
+			echo $array[$i]['key2']
+		}
+	foreach:
+		foreach($array as $i){
+			echo $i['key1']
+			echo $i['key2']
+		}
+
+Include: (Incluye un archivo php dentro de otro; require tiene la misma funcion con la diferencia que si no se encuentra todo el codigo debajo no se procesa)
+	<?php include('path/file.php') ?>
+	
+	file.php:
+		<!--codigohtml-->
+
+Switch:
+	switch($variable){
+		case valorvariable1:
+			...
+			break;
+		case valorvariable2:
+			...
+			break;
+		default:
+			...
+			break;
+	}
+
+Funciones:
+	function name(parametros){
+		...
+		return ...;
+	}

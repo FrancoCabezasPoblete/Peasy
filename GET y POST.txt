@@ -1,0 +1,10 @@
+Dentro del input existe un parametro llamado name, este sera el nombre que tendra asignado segun el metodo que elijamos en php.
+
+Ej:
+	En HTML:
+		<form method = "POST">
+			<input type=... class=... name="dato">
+ 	En PHP:
+		$color = $_POST['dato']
+	
+(GET toma datos desde la URL y POST de forma oculta)

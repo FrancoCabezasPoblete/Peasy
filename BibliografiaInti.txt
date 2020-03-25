@@ -1,0 +1,6 @@
+Python Scrapy tutorial:
+https://www.youtube.com/watch?v=ve_0h4Y8nuI&list=PLhTjy8cBISEqkN-5Ku_kXG4QW33sxQo0t
+
+Paginas Scrapeadas:
+https://www.solotodo.com/
+https://www.yapo.cl/ (Para pruebas)

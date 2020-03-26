@@ -144,6 +144,12 @@ ul .list-group-item {
     background-color: #4999fc;
 }
 
+.procesador {
+    font-size: small;
+    text-align: center;
+    color: #fc21f9;
+}
+
 /* P A G I N A T I O N */
 .page-link {
     color: black;

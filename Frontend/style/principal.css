@@ -1,9 +1,15 @@
 body {
     background-image: url("../img/background.png");
-    background-repeat: no-repeat;
+    background-repeat: no-repeat ;
     background-size: cover;
+    background-attachment: fixed;
 }
 
+#header {
+    position: relative;
+}   
+
+/* S E L E C T I O N */
 ::selection {
     background-color: #fc21f9;
     color: white;
@@ -15,76 +21,92 @@ body {
     -webkit-box-shadow: none !important;
 }
 
-#header {
-    position: relative;
+.form-control:focus {
+    outline: 0 !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
 }
 
-/* N A V B A R */
-
-@media (min-width: 990px) {
-    .navbar {
-        height:40px;
-    }
+.btn:focus {
+    outline: 0 !important;
 }
 
-.nav-item {
-    display: block;
+/* B O R D E R */
+.borde-rosado {
+    border-left: 2px solid #fc21f9;
+    border-right: 2px solid #fc21f9;
+    border-bottom: 2px solid #fc21f9;
 }
 
-#contactanos {
-    padding-right: 30px;
-    color:#fc21f9;
-    font-size: small;
-}
-
-#contactanos:hover {
-    color: #4999fc;
-    transition-delay:0.001s;
-}
-
-
-#casa{
-    padding-right: 30px;
-    color:#4999fc;
-    font-size: small;
-}
-
+/* C E N T E R */
 .center {
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* N A V B A R */
+.navbar {
+    background-color: #48146d;
+}
 
-#pos_logo {
+@media (min-width: 990px) {
+    .navbar {
+        height: 40px;
+    }
+}
+
+.nav-link {
+    color: #fc21f9;
+    font-size: small;
+}
+
+#logo {
     z-index: 1;
     left: -1%;
-    padding: 0; 
+    padding: 0;
     height: auto;
-    width: 180px;
+    width: 17%;
+}
+
+.iconos {
+    width: 0.6rem;
+    height: auto;
+}
+
+#menu-texto {
+    color: #fc21f9;
+    font-size: small;
+}
+
+#menu-texto:hover {
+    color: #4999fc;
+    transition-delay: 0.001s;
+}
+
+.navbar li {
+    margin: 2px 15px 0 0;
+}
+
+.icono-lupa {
+    position: relative;
+    width: 0.7rem;
+    height: auto;
+    left: -10px;
 }
 
 #boton-buscar {
     height: 25px;
 }
-.icono_lupa {
-    position: relative;
-    width: 15px;
-    height: auto;
-    left: -10px;
-}
-.icono {
-    position: relative;
-    left: -5px;
-    bottom: 2px;
-}
 
-.navbar-toggler-icon {
-    color: white;
+#menu-texto-current {
+    color: #4999fc;
 }
 
 /* C A R O U S E L */
-
+.carousel {
+    z-index: 0;
+}
 .carousel-caption {
     color: black;
 }
@@ -101,9 +123,3 @@ body {
     padding-bottom: 5%;
 }
 
-.borde-pag-completa {
-    border-left: 2px solid #fc21f9;
-    border-right: 2px solid #fc21f9;
-    border-bottom: 2px solid #fc21f9;
-    padding: 0;
-}

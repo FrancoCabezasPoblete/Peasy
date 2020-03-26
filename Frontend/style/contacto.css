@@ -38,6 +38,13 @@ body {
     border-bottom: 2px solid #fc21f9;
 }
 
+/* T E X T _ L I M I T */
+.overflow{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
 /* C E N T E R */
 .center {
     display: block;
@@ -99,23 +106,6 @@ body {
     height: 25px;
 }
 
-/* C A R D */
-.carta {
-    width: 60rem; 
-    min-height: 11rem;
+#menu-texto-current {
+    color: #4999fc;
 }
-.imagen {
-    width: 14%;
-}
-
-.descripcion-carta {
-    float:left; 
-    font-size:80%;
-}
-
-
-
-
-
-
-

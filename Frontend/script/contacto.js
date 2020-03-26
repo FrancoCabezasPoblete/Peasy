@@ -13,11 +13,11 @@ function hoverLupa(element){
 }
 
 function unhoverContacto(element) {
-    document.getElementById("icono-contacto").src = "img/mail%201.png";
+    document.getElementById("icono-contacto").src = "img/mail%202.png";
 }
 
 function unhoverCasa(element) {
-    document.getElementById("icono-casa").src = "img/house%202.png";
+    document.getElementById("icono-casa").src = "img/house%201.png";
 }
 
 function unhoverLupa(element){

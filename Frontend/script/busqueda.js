@@ -25,12 +25,12 @@ function unhoverLupa(element){
     document.getElementById("icono-lupa").style.position = "relative";
     document.getElementById("icono-lupa").style.left = "-10px";
 }
-
-$(function () {
-    $('[data-toggle="popover"]').popover()
-})
-
+    
 document.getElementById('header').setAttribute('draggable', false);
 document.getElementById('logo').setAttribute('draggable', false);
 
-
+$("#boton-buscar").keypress(function(event) { 
+    if (event.keyCode === 13) { 
+        $("#botonEnter").click(); 
+    } 
+}); 

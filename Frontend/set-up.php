@@ -42,7 +42,7 @@ $setup = unserialize(base64_decode($str_var));
                             <a class="nav-link" href="index.html" onmouseover="hoverCasa(this);" onmouseout="unhoverCasa(this);" id="menu-texto"><img src="img/house%201.png" id="icono-casa" class="iconos m-2">H O M E</a>
                         </li>
                         <li class="nav-item mt-1">
-                            <a class="nav-link" href="#" onmouseover="hoverContacto(this);" onmouseout="unhoverContacto(this);" id="menu-texto"><img src="img/mail%201.png" id="icono-contacto" class="iconos m-2">C O N T A C T A N O S</a>
+                            <a class="nav-link" href="contacto.html" onmouseover="hoverContacto(this);" onmouseout="unhoverContacto(this);" id="menu-texto"><img src="img/mail%201.png" id="icono-contacto" class="iconos m-2">C O N T A C T A N O S</a>
                         </li>
                     </div>
                     <form class="form-inline" action="busqueda.php" method="GET">

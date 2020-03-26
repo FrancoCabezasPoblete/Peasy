@@ -94,7 +94,7 @@ $resultadosPag = array_slice($resultados,$inicio,12);
                         <div class="card-body">
                             <h5 class="card-title">$<?php echo number_format($setup['precioTotal'], 0, ',', '.') ?></h5>
                             <p class="procesador">el mejor procesador del presupuesto, hace al computador <strong>más rápido</strong></p>
-                            <p>recomendado para </u>gaming</u></p>
+                            <p>recomendado para <u>gaming</u></p>
                         </div>
                             <ul class="list-group list-group-flush">
                                 <li class="list-group-item overflow"><?php echo $setup['gab']['nombre'] ?></li>

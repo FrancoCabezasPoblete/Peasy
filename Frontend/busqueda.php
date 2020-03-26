@@ -1,8 +1,16 @@
 <?php
 include_once 'conexion.php';
 $budget = $_GET['budget'];
-if($budget < 156906){
-    $budget = 156906;
+if($budget < 150516){
+    $budget = 150516;
+} elseif($budget > 6155200){
+    $budget = 6155200;
+} elseif($budget > 999570 && $budget < 1003970){
+    if($budget < 1001770){
+        $budget = 999570;
+    }else{
+        $budget = 1003970;
+    }
 }
 include('consultaBudget.php'); //$cpu,$gab,$gpu,$placa,$psu,$ram,$hdd,$ssd
 include('creacionSetups.php'); //$resultados[num] = ['cpu','gab','gpu','placa','psu','ram','almacenamiento','precioTotal']
@@ -38,7 +46,7 @@ $resultadosPag = array_slice($resultados,$inicio,12);
         <div class="row">
             <img src="img/header.png" alt="vaporwave" id="header" class="center col">
         </div>
-    <div class="borde-rosado p-0 m-0 mb-5">
+<div class="borde-rosado p-0 m-0 mb-5">
 
 <!-- navbar -->
     <div class="row">
@@ -56,15 +64,15 @@ $resultadosPag = array_slice($resultados,$inicio,12);
                             <a class="nav-link" href="index.html" onmouseover="hoverCasa(this);" onmouseout="unhoverCasa(this);" id="menu-texto"><img src="img/house%201.png" id="icono-casa" class="iconos m-2">H O M E</a>
                         </li>
                         <li class="nav-item mt-1">
-                            <a class="nav-link" href="#" onmouseover="hoverContacto(this);" onmouseout="unhoverContacto(this);" id="menu-texto"><img src="img/mail%201.png" id="icono-contacto" class="iconos m-2">C O N T A C T A N O S</a>
+                            <a class="nav-link" href="contacto.html" onmouseover="hoverContacto(this);" onmouseout="unhoverContacto(this);" id="menu-texto"><img src="img/mail%201.png" id="icono-contacto" class="iconos m-2">C O N T A C T A N O S</a>
                         </li>
                     </div>
                     <form class="form-inline" action="busqueda.php" method="GET">
                         <input class="form-control mr-sm-2 rounded-0" type="text" placeholder="ᴇꜱᴄʀɪʙᴇ ᴛᴜ ʙᴜᴅɢᴇᴛ ᴀᴄᴀ!" aria-label="search" id="boton-buscar" name="budget" onkeypress="return (event.charCode !=8 && event.charCode ==0 || (event.charCode >= 48 && event.charCode <= 57))">
                         <input class="form-control" type="hidden" name="pagina" value="1">    
                         <div>
-                                <button class="btn" onmouseover="hoverLupa(this);" onmouseout="unhoverLupa(this);" type="submit"><img src="img/lupa%201.png" id="icono-lupa" class="icono-lupa"></button>
-                            </div>
+                                <button class="btn" id="botonEnter" onmouseover="hoverLupa(this);" onmouseout="unhoverLupa(this);" type="submit"><img src="img/lupa%201.png" id="icono-lupa" class="icono-lupa"></button>
+                        </div>
                     </form>
                 </div>
             </nav>
@@ -74,80 +82,109 @@ $resultadosPag = array_slice($resultados,$inicio,12);
 <!-- card -->
     <div class="bg-white container">
         <div class="row">
-        <?php 
-        $mejorcpu = 0;
-        foreach($resultadosPag as $setup): ?>
-        <?php if(base64_encode(serialize($setup)) != "Tjs="): ?>
-            <?php if($mejorcpu <= $setup['cpu']['benchmark'] and $setup['cpu']['benchmark']>= 50){
-            $mejorcpu = $setup['cpu']['benchmark']; ?>
-            <div class="col-3 d-flex justify-content-center">
-                <div class="card rounded-0 mt-2">
-                    <img src="<?php echo $setup['gab']['imagen'] ?>" class="card-img-top" alt="...">
-                    <div class="flex-column">
-                        <img src="<?php echo $setup['gpu']['imagen'] ?>" class="imagen-carta card-img-left col" alt="...">
-                        <img src="<?php echo $setup['cpu']['imagen'] ?>" class="imagen-carta card-img-right col" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">$<?php echo number_format($setup['precioTotal'], 0, ',', '.') ?></h5>
-                        <p>Tiene un procesador potente que servira para variadas tareas</p>
-                    </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item overflow"><?php echo $setup['gab']['nombre'] ?></li>
-                            <li class="list-group-item overflow"><?php echo $setup['gpu']['nombre'] ?></li>
-                            <li class="list-group-item overflow"><?php echo $setup['cpu']['nombre'] ?></li>
-                        </ul>
-                    <div class="card-body">
-                        <a href="set-up.php?setup=<?php print base64_encode(serialize($setup)) ?>" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</a>
-                    </div>
-                </div>
-            </div>
-            <?php } elseif($mejorcpu <= $setup['cpu']['benchmark']){
-            $mejorcpu = $setup['cpu']['benchmark']; ?>
-            <div class="col-3 d-flex justify-content-center">
-                <div class="card rounded-0 mt-2">
-                    <img src="<?php echo $setup['gab']['imagen'] ?>" class="card-img-top" alt="...">
-                    <div class="flex-column">
-                        <img src="<?php echo $setup['gpu']['imagen'] ?>" class="imagen-carta card-img-left col" alt="...">
-                        <img src="<?php echo $setup['cpu']['imagen'] ?>" class="imagen-carta card-img-right col" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">$<?php echo number_format($setup['precioTotal'], 0, ',', '.') ?></h5>
-                        <p>Mejor procesador, dentro del presupuesto, para versatilizar su uso</p>
-                    </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item overflow"><?php echo $setup['gab']['nombre'] ?></li>
-                            <li class="list-group-item overflow"><?php echo $setup['gpu']['nombre'] ?></li>
-                            <li class="list-group-item overflow"><?php echo $setup['cpu']['nombre'] ?></li>
-                        </ul>
-                    <div class="card-body">
-                        <a href="set-up.php?setup=<?php print base64_encode(serialize($setup)) ?>" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</a>
-                    </div>
-                </div>
-            </div>
-            <?php } else { ?>
+        <?php $mejorcpu = 0; foreach($resultadosPag as $setup): ?>
+        <?php if(base64_encode(serialize($setup)) != "Tjs="): if($mejorcpu <= $setup['cpu']['benchmark']){ $mejorcpu = $setup['cpu']['benchmark']; if($setup['gpu'] != 'no'): ?>
                 <div class="col-3 d-flex justify-content-center">
-                <div class="card rounded-0 mt-2">
-                    <img src="<?php echo $setup['gab']['imagen'] ?>" class="card-img-top" alt="...">
-                    <div class="flex-column">
-                        <img src="<?php echo $setup['gpu']['imagen'] ?>" class="imagen-carta card-img-left col" alt="...">
-                        <img src="<?php echo $setup['cpu']['imagen'] ?>" class="imagen-carta card-img-right col" alt="...">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">$<?php echo number_format($setup['precioTotal'], 0, ',', '.') ?></h5>
-                        <br/>
-                        <br/>
-                        <br/>
-                    </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item overflow"><?php echo $setup['gab']['nombre'] ?></li>
-                            <li class="list-group-item overflow"><?php echo $setup['gpu']['nombre'] ?></li>
-                            <li class="list-group-item overflow"><?php echo $setup['cpu']['nombre'] ?></li>
-                        </ul>
-                    <div class="card-body">
-                        <a href="set-up.php?setup=<?php print base64_encode(serialize($setup)) ?>" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</a>
+                    <div class="card rounded-0 mt-2">
+                        <img src="<?php echo $setup['gab']['imagen'] ?>" class="card-img-top" alt="...">
+                        <div class="flex-column">
+                            <img src="<?php echo $setup['gpu']['imagen'] ?>" class="imagen-carta card-img-left col" alt="...">
+                            <img src="<?php echo $setup['cpu']['imagen'] ?>" class="imagen-carta card-img-right col" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">$<?php echo number_format($setup['precioTotal'], 0, ',', '.') ?></h5>
+                            <p class="procesador">el mejor procesador del presupuesto, hace al computador <strong>más rápido</strong></p>
+                            <p>recomendado para </u>gaming</u></p>
+                        </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item overflow"><?php echo $setup['gab']['nombre'] ?></li>
+                                <li class="list-group-item overflow"><?php echo $setup['gpu']['nombre'] ?></li>
+                                <li class="list-group-item overflow"><?php echo $setup['cpu']['nombre'] ?></li>
+                            </ul>
+                        <form class="card-body" action="set-up.php" method="POST">
+                            <input class="form-control" type="hidden" name="setup" value="<?php print base64_encode(serialize($setup)) ?>">  
+                            <button type="submit" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</button>
+                        </form>
                     </div>
                 </div>
-            </div>
+                <?php else: ?>
+                <div class="col-3 d-flex justify-content-center">
+                    <div class="card rounded-0 mt-2">
+                        <img src="<?php echo $setup['gab']['imagen'] ?>" class="card-img-top" alt="...">
+                        <div class="flex-column">
+                            <img src="<?php echo $setup['placa']['imagen'] ?>" class="imagen-carta card-img-left col" alt="...">
+                            <img src="<?php echo $setup['cpu']['imagen'] ?>" class="imagen-carta card-img-right col" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">$<?php echo number_format($setup['precioTotal'], 0, ',', '.') ?></h5>
+                            <p class="procesador">el mejor procesador del presupuesto, hace al computador <strong>más rápido</strong></p>
+                            <p>recomendado para <u>oficina</u></p>
+                        </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item overflow"><?php echo $setup['gab']['nombre'] ?></li>
+                                <li class="list-group-item overflow"><?php echo $setup['placa']['nombre'] ?></li>
+                                <li class="list-group-item overflow"><?php echo $setup['cpu']['nombre'] ?></li>
+                            </ul>
+                        <form class="card-body" action="set-up.php" method="POST">
+                            <input class="form-control" type="hidden" name="setup" value="<?php print base64_encode(serialize($setup)) ?>">  
+                            <button type="submit" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</button>
+                        </form>
+                    </div>
+                </div>
+                <?php endif ?>
+            <?php } else { if($setup['gpu'] != 'no'): ?>
+                <div class="col-3 d-flex justify-content-center">
+                    <div class="card rounded-0 mt-2">
+                        <img src="<?php echo $setup['gab']['imagen'] ?>" class="card-img-top" alt="...">
+                        <div class="flex-column">
+                            <img src="<?php echo $setup['gpu']['imagen'] ?>" class="imagen-carta card-img-left col" alt="...">
+                            <img src="<?php echo $setup['cpu']['imagen'] ?>" class="imagen-carta card-img-right col" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">$<?php echo number_format($setup['precioTotal'], 0, ',', '.') ?></h5>
+                            <br/>
+                            <br/>
+                            <p>recomendado para <u>gaming</u></p>
+                            <br/>
+                        </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item overflow"><?php echo $setup['gab']['nombre'] ?></li>
+                                <li class="list-group-item overflow"><?php echo $setup['gpu']['nombre'] ?></li>
+                                <li class="list-group-item overflow"><?php echo $setup['cpu']['nombre'] ?></li>
+                            </ul>
+                        <form class="card-body" action="set-up.php" method="POST">
+                            <input class="form-control" type="hidden" name="setup" value="<?php print base64_encode(serialize($setup)) ?>">  
+                            <button type="submit" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</button>
+                        </form>
+                    </div>
+                </div>
+                <?php else: ?>
+                <div class="col-3 d-flex justify-content-center">
+                    <div class="card rounded-0 mt-2">
+                        <img src="<?php echo $setup['gab']['imagen'] ?>" class="card-img-top" alt="...">
+                        <div class="flex-column">
+                            <img src="<?php echo $setup['placa']['imagen'] ?>" class="imagen-carta card-img-left col" alt="...">
+                            <img src="<?php echo $setup['cpu']['imagen'] ?>" class="imagen-carta card-img-right col" alt="...">
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">$<?php echo number_format($setup['precioTotal'], 0, ',', '.') ?></h5>
+                            <br/>
+                            <br/>
+                            <p>recomendado para <u>oficina</u></p>
+                            <br/>
+                        </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item overflow"><?php echo $setup['gab']['nombre'] ?></li>
+                                <li class="list-group-item overflow"><?php echo $setup['placa']['nombre'] ?></li>
+                                <li class="list-group-item overflow"><?php echo $setup['cpu']['nombre'] ?></li>
+                            </ul>
+                        <form class="card-body" action="set-up.php" method="POST">
+                            <input class="form-control" type="hidden" name="setup" value="<?php print base64_encode(serialize($setup)) ?>">  
+                            <button type="submit" class="btn btn-primary center rounded-0">ʀᴇᴠɪꜱᴀ ᴇʟ ꜱᴇᴛ-ᴜᴘ ᴀᴄᴀ!</button>
+                        </form>
+                    </div>
+                </div>
+                <?php endif ?> 
             <?php } ?>
         <?php endif ?>
         <?php endforeach ?>               
@@ -176,9 +213,10 @@ $resultadosPag = array_slice($resultados,$inicio,12);
         </nav>
     </div>
     </div>
-    </div>
 </div>
-    <!--Bootstrap JS-->
+</div>
+
+<!--Bootstrap JS-->
     <script src="script/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
         integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous">

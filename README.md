@@ -7,4 +7,4 @@ ScrappingPages : Inti Vidal,
 
 BackEnd : Franco Cabezas
 
-### WebScrapping not functional at GitHub version.
+### Missing some web scraping files at GitHub version
